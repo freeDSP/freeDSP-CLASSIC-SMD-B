@@ -1,4 +1,4 @@
-update=Mi 03 Mai 2017 12:55:14 CEST
+update=Mi 03 Mai 2017 14:00:13 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,20 +29,20 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=LIBRARY
+LibDir=../LIBRARY
 [eeschema/libraries]
-LibName1=LIBRARY/Symbol/fdsp_amplifier
-LibName2=LIBRARY/Symbol/fdsp_connector
-LibName3=LIBRARY/Symbol/fdsp_converter
-LibName4=LIBRARY/Symbol/fdsp_device
-LibName5=LIBRARY/Symbol/fdsp_digital
-LibName6=LIBRARY/Symbol/fdsp_dsp
-LibName7=LIBRARY/Symbol/fdsp_mechanical
-LibName8=LIBRARY/Symbol/fdsp_pinhead
-LibName9=LIBRARY/Symbol/fdsp_power
-LibName10=LIBRARY/Symbol/fdsp_regulator
-LibName11=LIBRARY/Symbol/fdsp_transistor
-LibName12=freeDSP
+LibName1=freeDSP
+LibName2=Symbol/fdsp_amplifier
+LibName3=Symbol/fdsp_connector
+LibName4=Symbol/fdsp_converter
+LibName5=Symbol/fdsp_device
+LibName6=Symbol/fdsp_digital
+LibName7=Symbol/fdsp_dsp
+LibName8=Symbol/fdsp_mechanical
+LibName9=Symbol/fdsp_pinhead
+LibName10=Symbol/fdsp_power
+LibName11=Symbol/fdsp_regulator
+LibName12=Symbol/fdsp_transistor
 LibName13=power
 LibName14=device
 LibName15=transistors
