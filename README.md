@@ -4,8 +4,9 @@ BOARD STATUS: WORK IN PROGRESS - DO NOT BUILT!
 
 MAIN COORDINATOR: [robert](https://github.com/FreeDSP-Robert)
 
-
 SMD update of freeDSP CLASSIC.
+
+LICENCE: Missing
 
 ## Git usage
 
@@ -13,6 +14,8 @@ SMD update of freeDSP CLASSIC.
 - Change to your FreeDSP directory
 - Clone the repository (including submodule)  
  `git clone --recursive https://github.com/maxanier/freeDSP-CLASSIC-SMD-B.git --branch dev-hs-01 Classic-SMD-B`
+- Checkout a branch for the library submodule, so you can modify it as well  
+  `git submodule foreach 'git checkout 'dev-hs-01'`
 - Change to the newly created Classic-SMD-B directory
 - Open the project file in KiCad
 
@@ -23,11 +26,12 @@ SMD update of freeDSP CLASSIC.
   `git submodule update --remote --merge`
 
 #### To commit and push local changes
-- In the project directory run  
+- If you modified something in the LIBRARY folder, change to the LIBRARY folder and run  
+  `git add .` (Only required if files were added)  
+  `git commit -am "Message"`  (Describe what you changed)  
+- Change to the project root directory and run
   `git add .` (Only required if files were added)  
   `git commit -am "Message"`  (Describe what you changed)    
-- If you modified the library, change to the library and do the same again
-
 - In the project directory run  
   `git push --recurse-submodule=on-demand`  
 
@@ -36,3 +40,9 @@ SMD update of freeDSP CLASSIC.
   `git config alias.supdate 'submodule update --remote --merge'`  
   `git config alias.spush 'push --recurse-submodules=on-demand'`  
 - Afterwards you can use `git supdate` to update the submodule and `git spush` to push any commited changes  
+
+#### Other useful commands
+- `git status`  
+  Shows general information about the current branch, uncommited changes, not yet added new files and more
+- `git diff`  
+  Shows uncommited changes
