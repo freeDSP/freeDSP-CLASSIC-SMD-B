@@ -8,6 +8,17 @@ SMD update of freeDSP CLASSIC.
 
 LICENCE: Missing
 
+## Links
+
+#### TODO List
+https://github.com/maxanier/freeDSP-CLASSIC-SMD-B/wiki/TODO
+
+#### FreeDSP Guidelines
+https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
+
+#### FreeDSP Website
+http://freedsp.cc/
+
 ## Git usage
 
 #### How to setup local repository
