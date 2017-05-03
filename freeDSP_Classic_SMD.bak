@@ -1169,7 +1169,7 @@ Text Label 3980 7975 2    59   ~ 0
 MP3
 Text Label 3980 8075 2    59   ~ 0
 MP2
-Text Notes 4575 6725 0    118  ~ 24
+Text Notes 6080 7150 0    118  ~ 24
 Extension Header
 $Comp
 L DIODESCH D5
