@@ -1,0 +1,4 @@
+[submodule "LIBRARY"]
+	path = LIBRARY
+	url = https://github.com/maxanier/freeDSP-KiCadLibrary.git
+	branch = dev-hs-01
