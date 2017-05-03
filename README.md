@@ -46,3 +46,6 @@ LICENCE: Missing
   Shows general information about the current branch, uncommited changes, not yet added new files and more
 - `git diff`  
   Shows uncommited changes
+- `git reset --hard origin/dev-hs-01`
+  Reset all files to the current status of the dev-hs-01 branch on the Github repository  
+  **Careful** This deletes all local changes, so make sure all changes you made and you do not want to delete are pushed to the remote repository
