@@ -2,11 +2,9 @@
 
 BOARD STATUS: WORK IN PROGRESS - DO NOT BUILT!
 
-MAIN COORDINATOR: [robert](https://github.com/FreeDSP-Robert)
-
 SMD update of freeDSP CLASSIC.
 
-LICENCE: Missing
+LICENCE: Creative Commons Attribution Share-Alike 4.0 license
 
 ## Links
 
@@ -25,9 +23,9 @@ http://freedsp.cc/
 - Change to your FreeDSP directory
 - Clone the repository (including submodule)  
  `git clone --recursive https://github.com/maxanier/freeDSP-CLASSIC-SMD-B.git --branch dev-hs-01 Classic-SMD-B`
+- Change to the newly created Classic-SMD-B directory
 - Checkout a branch for the library submodule, so you can modify it as well  
   `git submodule foreach 'git checkout 'dev-hs-01''`
-- Change to the newly created Classic-SMD-B directory
 - Open the project file in KiCad
 
 #### How to update the local copy
