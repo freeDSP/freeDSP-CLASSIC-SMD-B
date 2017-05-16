@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1404
+D Oscillator Driver
+K HCTMOS oscillator driver inv schmitt
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,457 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:eigenes
+LIBS:noname-cache
+LIBS:Clock-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74LVC1404 U
+U 1 1 591A9910
+P 4350 2350
+F 0 "U" H 4487 3065 50  0000 C CNN
+F 1 "74LVC1404" H 4487 2974 50  0000 C CNN
+F 2 "" H 4425 2350 50  0001 C CNN
+F 3 "" H 4425 2350 50  0001 C CNN
+	1    4350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 591A996D
+P 1475 2900
+F 0 "C2" H 1590 2946 50  0000 L CNN
+F 1 "100p" H 1590 2855 50  0000 L CNN
+F 2 "" H 1513 2750 50  0001 C CNN
+F 3 "" H 1475 2900 50  0001 C CNN
+	1    1475 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 591A9AB7
+P 2700 2900
+F 0 "C1" H 2815 2946 50  0000 L CNN
+F 1 "100p" H 2815 2855 50  0000 L CNN
+F 2 "" H 2738 2750 50  0001 C CNN
+F 3 "" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R Rf
+U 1 1 591A9B4D
+P 2700 2500
+F 0 "Rf" H 2770 2546 50  0000 L CNN
+F 1 "2.2M" H 2770 2455 50  0000 L CNN
+F 2 "" V 2630 2500 50  0001 C CNN
+F 3 "" H 2700 2500 50  0001 C CNN
+	1    2700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R Rs
+U 1 1 591A9C17
+P 2350 2350
+F 0 "Rs" V 2143 2350 50  0000 C CNN
+F 1 "200" V 2234 2350 50  0000 C CNN
+F 2 "" V 2280 2350 50  0001 C CNN
+F 3 "" H 2350 2350 50  0001 C CNN
+	1    2350 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Crystal Y
+U 1 1 591A9F20
+P 2350 2700
+F 0 "Y" H 2350 2550 50  0000 C CNN
+F 1 "Crystal" H 2350 2877 50  0000 C CNN
+F 2 "" H 2350 2700 50  0001 C CNN
+F 3 "" H 2350 2700 50  0001 C CNN
+	1    2350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AA2F8
+P 1475 3050
+F 0 "#PWR?" H 1475 2800 50  0001 C CNN
+F 1 "GND" H 1480 2877 50  0000 C CNN
+F 2 "" H 1475 3050 50  0001 C CNN
+F 3 "" H 1475 3050 50  0001 C CNN
+	1    1475 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AA32C
+P 2700 3050
+F 0 "#PWR?" H 2700 2800 50  0001 C CNN
+F 1 "GND" H 2705 2877 50  0000 C CNN
+F 2 "" H 2700 3050 50  0001 C CNN
+F 3 "" H 2700 3050 50  0001 C CNN
+	1    2700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AA378
+P 5450 3450
+F 0 "#PWR?" H 5450 3200 50  0001 C CNN
+F 1 "GND" H 5455 3277 50  0000 C CNN
+F 2 "" H 5450 3450 50  0001 C CNN
+F 3 "" H 5450 3450 50  0001 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 591AA4AF
+P 3300 1600
+F 0 "#PWR?" H 3300 1450 50  0001 C CNN
+F 1 "VCC" H 3317 1773 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 2050 1675 0    60   ~ 0
+Vorschlag 1\n
+Text GLabel 3350 4000 3    60   Input ~ 0
+MCLK
+$Comp
+L C C3
+U 1 1 591AAC5C
+P 1925 2700
+F 0 "C3" V 1673 2700 50  0000 C CNN
+F 1 "27p" V 1764 2700 50  0000 C CNN
+F 2 "" H 1963 2550 50  0001 C CNN
+F 3 "" H 1925 2700 50  0001 C CNN
+	1    1925 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L 74AHC1G04 U
+U 1 1 591AB03A
+P 8400 2325
+F 0 "U" H 8550 2425 50  0000 L CNN
+F 1 "74AHCU04N" H 8500 2225 50  0000 L CNN
+F 2 "" H 8400 2325 50  0001 C CNN
+F 3 "" H 8400 2325 50  0001 C CNN
+	1    8400 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 591AB5A1
+P 7850 3425
+F 0 "C2" H 7965 3471 50  0000 L CNN
+F 1 "100p" H 7965 3380 50  0000 L CNN
+F 2 "" H 7888 3275 50  0001 C CNN
+F 3 "" H 7850 3425 50  0001 C CNN
+	1    7850 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 591AB660
+P 8200 3100
+F 0 "C3" V 7948 3100 50  0000 C CNN
+F 1 "27p" V 8039 3100 50  0000 C CNN
+F 2 "" H 8238 2950 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 591AB707
+P 9100 3425
+F 0 "C1" H 8985 3379 50  0000 R CNN
+F 1 "100p" H 8985 3470 50  0000 R CNN
+F 2 "" H 9138 3275 50  0001 C CNN
+F 3 "" H 9100 3425 50  0001 C CNN
+	1    9100 3425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Crystal Y
+U 1 1 591AB846
+P 8700 3100
+F 0 "Y" H 8700 3368 50  0000 C CNN
+F 1 "Crystal" H 8700 3277 50  0000 C CNN
+F 2 "" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AC191
+P 7850 3575
+F 0 "#PWR?" H 7850 3325 50  0001 C CNN
+F 1 "GND" H 7855 3402 50  0000 C CNN
+F 2 "" H 7850 3575 50  0001 C CNN
+F 3 "" H 7850 3575 50  0001 C CNN
+	1    7850 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AC1DA
+P 9100 3575
+F 0 "#PWR?" H 9100 3325 50  0001 C CNN
+F 1 "GND" H 9105 3402 50  0000 C CNN
+F 2 "" H 9100 3575 50  0001 C CNN
+F 3 "" H 9100 3575 50  0001 C CNN
+	1    9100 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AC24A
+P 8350 2525
+F 0 "#PWR?" H 8350 2275 50  0001 C CNN
+F 1 "GND" H 8355 2352 50  0000 C CNN
+F 2 "" H 8350 2525 50  0001 C CNN
+F 3 "" H 8350 2525 50  0001 C CNN
+	1    8350 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 591AC302
+P 8350 2125
+F 0 "#PWR?" H 8350 1975 50  0001 C CNN
+F 1 "VCC" H 8367 2298 50  0000 C CNN
+F 2 "" H 8350 2125 50  0001 C CNN
+F 3 "" H 8350 2125 50  0001 C CNN
+	1    8350 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L R Rf
+U 1 1 591AC551
+P 8375 1775
+F 0 "Rf" V 8168 1775 50  0000 C CNN
+F 1 "2.2M" V 8259 1775 50  0000 C CNN
+F 2 "" V 8305 1775 50  0001 C CNN
+F 3 "" H 8375 1775 50  0001 C CNN
+	1    8375 1775
+	0    1    1    0   
+$EndComp
+Text GLabel 9850 2325 2    60   Input ~ 0
+MCLK
+Text Notes 7325 1500 0    60   ~ 0
+Vorschlag 2\n
+Wire Wire Line
+	1475 2750 1475 2350
+Wire Wire Line
+	1475 2350 2200 2350
+Wire Wire Line
+	2700 2650 2700 2750
+Connection ~ 2700 2700
+Wire Wire Line
+	1475 2700 1775 2700
+Connection ~ 1475 2700
+Connection ~ 2700 2350
+Wire Wire Line
+	3300 3450 3525 3450
+Wire Wire Line
+	3300 1600 3300 3450
+Wire Wire Line
+	3300 2000 3525 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	5450 2350 5450 3050
+Wire Wire Line
+	3525 3050 3350 3050
+Wire Wire Line
+	3350 3050 3350 4000
+Wire Wire Line
+	2075 2700 2200 2700
+Wire Wire Line
+	8050 3100 7850 3100
+Connection ~ 7850 3100
+Wire Wire Line
+	8350 3100 8550 3100
+Wire Wire Line
+	7850 1775 7850 3275
+Wire Wire Line
+	7850 2325 7950 2325
+Wire Wire Line
+	8850 2325 9850 2325
+Wire Wire Line
+	8850 3100 9100 3100
+Connection ~ 9100 3100
+Wire Wire Line
+	7850 1775 8225 1775
+Connection ~ 7850 2325
+Wire Wire Line
+	8525 1775 9100 1775
+Connection ~ 9100 2325
+Wire Wire Line
+	2500 2700 3075 2700
+Wire Wire Line
+	3075 2700 3075 2350
+Wire Wire Line
+	3075 2350 3525 2350
+Wire Wire Line
+	2500 2350 3000 2350
+Wire Wire Line
+	3000 2350 3000 2525
+Wire Wire Line
+	3000 2525 3175 2525
+Wire Wire Line
+	3175 2525 3175 2700
+Wire Wire Line
+	3175 2700 3525 2700
+Wire Wire Line
+	9100 1775 9100 2550
+$Comp
+L R Rs
+U 1 1 591ADBB7
+P 9100 2700
+F 0 "Rs" H 9170 2746 50  0000 L CNN
+F 1 "200" H 9170 2655 50  0000 L CNN
+F 2 "" V 9030 2700 50  0001 C CNN
+F 3 "" H 9100 2700 50  0001 C CNN
+	1    9100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2850 9100 3275
+$Comp
+L Crystal_Oscillator U
+U 1 1 591AE40C
+P 2175 5750
+F 0 "U" H 2175 6075 60  0000 C CNN
+F 1 "Crystal_Oscillator" H 2200 5475 60  0000 C CNN
+F 2 "" H 2050 6475 60  0001 C CNN
+F 3 "" H 2050 6475 60  0001 C CNN
+	1    2175 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AEBCE
+P 1400 5850
+F 0 "#PWR?" H 1400 5600 50  0001 C CNN
+F 1 "GND" H 1405 5677 50  0000 C CNN
+F 2 "" H 1400 5850 50  0001 C CNN
+F 3 "" H 1400 5850 50  0001 C CNN
+	1    1400 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5850 1775 5850
+Wire Wire Line
+	2825 5850 2575 5850
+Wire Wire Line
+	2825 4850 2825 5850
+Wire Wire Line
+	2825 5050 1650 5050
+Wire Wire Line
+	1650 5050 1650 5650
+Wire Wire Line
+	1650 5650 1775 5650
+Connection ~ 2825 5050
+$Comp
+L VCC #PWR?
+U 1 1 591AED7A
+P 2825 4850
+F 0 "#PWR?" H 2825 4700 50  0001 C CNN
+F 1 "VCC" H 2842 5023 50  0000 C CNN
+F 2 "" H 2825 4850 50  0001 C CNN
+F 3 "" H 2825 4850 50  0001 C CNN
+	1    2825 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 5650 3125 5650
+Text GLabel 3125 5650 2    60   Input ~ 0
+MCLK
+Text Notes 1650 4700 0    60   ~ 0
+Vorschlag 3\n
+$Comp
+L 74AHC1G14 U
+U 1 1 591AF091
+P 5725 5175
+F 0 "U" H 5850 5325 50  0000 L CNN
+F 1 "74AHCU04N" H 5825 5050 50  0000 L CNN
+F 2 "" H 5820 5040 50  0001 C CNN
+F 3 "" H 5870 5290 50  0001 C CNN
+	1    5725 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591AF33E
+P 5675 5375
+F 0 "#PWR?" H 5675 5125 50  0001 C CNN
+F 1 "GND" H 5680 5202 50  0000 C CNN
+F 2 "" H 5675 5375 50  0001 C CNN
+F 3 "" H 5675 5375 50  0001 C CNN
+	1    5675 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 591AF3A5
+P 5675 4975
+F 0 "#PWR?" H 5675 4825 50  0001 C CNN
+F 1 "VCC" H 5692 5148 50  0000 C CNN
+F 2 "" H 5675 4975 50  0001 C CNN
+F 3 "" H 5675 4975 50  0001 C CNN
+	1    5675 4975
+	1    0    0    -1  
+$EndComp
+Text GLabel 5275 5175 0    60   Input ~ 0
+MCLK
+Text GLabel 6175 5175 2    60   Input ~ 0
+MCLK0-4
+Text Notes 4700 4725 0    60   ~ 0
+Verteilung\n\n\n
+Text Notes 600  7575 0    60   ~ 0
+Für Verteilung und Vorschlag 2 stehen ein inverter und ein invertierender Schmitttrigger zum Test bereit.\nAufgrund fehlender Parameter der Kristall-Ersatzschaltung kann keine der Schaltungen simuliert werden.\nDie angegebene Dimensionierung der Bauelemente ist mit einer Schätzung behaftet und experimentel sowohl für eine Testschaltung als\nauch für das finale Layout zu überprüfen\n
+$EndSCHEMATC
