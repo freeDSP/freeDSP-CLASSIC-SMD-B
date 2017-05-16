@@ -1,0 +1,4 @@
+ 
+PN5434 --> http://robustdesignconcepts.com/files/pspice/libs/jfet.lib
+BSH103 --> http://assets.nexperia.com/documents/spice-model/BSH103.prm
+LM339  --> http://www.ti.com/lit/zip/slcj014
