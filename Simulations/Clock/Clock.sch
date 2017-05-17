@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:eigenes
-LIBS:noname-cache
 LIBS:Clock-cache
 EELAYER 26 0
 EELAYER END
@@ -94,7 +93,7 @@ L R Rs
 U 1 1 591A9C17
 P 2350 2350
 F 0 "Rs" V 2143 2350 50  0000 C CNN
-F 1 "200" V 2234 2350 50  0000 C CNN
+F 1 "68" V 2234 2350 50  0000 C CNN
 F 2 "" V 2280 2350 50  0001 C CNN
 F 3 "" H 2350 2350 50  0001 C CNN
 	1    2350 2350
@@ -103,12 +102,12 @@ $EndComp
 $Comp
 L Crystal Y
 U 1 1 591A9F20
-P 2350 2700
-F 0 "Y" H 2350 2550 50  0000 C CNN
-F 1 "Crystal" H 2350 2877 50  0000 C CNN
-F 2 "" H 2350 2700 50  0001 C CNN
-F 3 "" H 2350 2700 50  0001 C CNN
-	1    2350 2700
+P 1925 2650
+F 0 "Y" H 1925 2500 50  0000 C CNN
+F 1 "Crystal" H 1925 2827 50  0000 C CNN
+F 2 "" H 1925 2650 50  0001 C CNN
+F 3 "" H 1925 2650 50  0001 C CNN
+	1    1925 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -162,12 +161,12 @@ MCLK
 $Comp
 L C C3
 U 1 1 591AAC5C
-P 1925 2700
-F 0 "C3" V 1673 2700 50  0000 C CNN
-F 1 "27p" V 1764 2700 50  0000 C CNN
-F 2 "" H 1963 2550 50  0001 C CNN
-F 3 "" H 1925 2700 50  0001 C CNN
-	1    1925 2700
+P 2350 2650
+F 0 "C3" V 2500 2650 50  0000 C CNN
+F 1 "27p" V 2189 2650 50  0000 C CNN
+F 2 "" H 2388 2500 50  0001 C CNN
+F 3 "" H 2350 2650 50  0001 C CNN
+	1    2350 2650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -182,10 +181,10 @@ F 3 "" H 8400 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C C1
 U 1 1 591AB5A1
 P 7850 3425
-F 0 "C2" H 7965 3471 50  0000 L CNN
+F 0 "C1" H 7965 3471 50  0000 L CNN
 F 1 "100p" H 7965 3380 50  0000 L CNN
 F 2 "" H 7888 3275 50  0001 C CNN
 F 3 "" H 7850 3425 50  0001 C CNN
@@ -204,10 +203,10 @@ F 3 "" H 8200 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L C C2
 U 1 1 591AB707
 P 9100 3425
-F 0 "C1" H 8985 3379 50  0000 R CNN
+F 0 "C2" H 8985 3379 50  0000 R CNN
 F 1 "100p" H 8985 3470 50  0000 R CNN
 F 2 "" H 9138 3275 50  0001 C CNN
 F 3 "" H 9100 3425 50  0001 C CNN
@@ -285,33 +284,26 @@ MCLK
 Text Notes 7325 1500 0    60   ~ 0
 Vorschlag 2\n
 Wire Wire Line
-	1475 2750 1475 2350
+	1475 2350 1475 2750
 Wire Wire Line
 	1475 2350 2200 2350
 Wire Wire Line
-	2700 2650 2700 2750
-Connection ~ 2700 2700
+	2500 2650 3550 2650
 Wire Wire Line
-	1475 2700 1775 2700
-Connection ~ 1475 2700
+	2700 2650 2700 2750
+Connection ~ 2700 2650
+Wire Wire Line
+	1475 2650 1775 2650
+Connection ~ 1475 2650
 Connection ~ 2700 2350
 Wire Wire Line
-	3300 3450 3525 3450
+	3350 2950 3550 2950
 Wire Wire Line
-	3300 1600 3300 3450
+	3350 2950 3350 4000
 Wire Wire Line
-	3300 2000 3525 2000
-Connection ~ 3300 2000
+	2075 2650 2200 2650
 Wire Wire Line
-	5450 2350 5450 3050
-Wire Wire Line
-	3525 3050 3350 3050
-Wire Wire Line
-	3350 3050 3350 4000
-Wire Wire Line
-	2075 2700 2200 2700
-Wire Wire Line
-	8050 3100 7850 3100
+	7850 3100 8050 3100
 Connection ~ 7850 3100
 Wire Wire Line
 	8350 3100 8550 3100
@@ -331,29 +323,13 @@ Wire Wire Line
 	8525 1775 9100 1775
 Connection ~ 9100 2325
 Wire Wire Line
-	2500 2700 3075 2700
-Wire Wire Line
-	3075 2700 3075 2350
-Wire Wire Line
-	3075 2350 3525 2350
-Wire Wire Line
-	2500 2350 3000 2350
-Wire Wire Line
-	3000 2350 3000 2525
-Wire Wire Line
-	3000 2525 3175 2525
-Wire Wire Line
-	3175 2525 3175 2700
-Wire Wire Line
-	3175 2700 3525 2700
-Wire Wire Line
 	9100 1775 9100 2550
 $Comp
 L R Rs
 U 1 1 591ADBB7
 P 9100 2700
 F 0 "Rs" H 9170 2746 50  0000 L CNN
-F 1 "200" H 9170 2655 50  0000 L CNN
+F 1 "68" H 9170 2655 50  0000 L CNN
 F 2 "" V 9030 2700 50  0001 C CNN
 F 3 "" H 9100 2700 50  0001 C CNN
 	1    9100 2700
@@ -454,4 +430,19 @@ Text Notes 4700 4725 0    60   ~ 0
 Verteilung\n\n\n
 Text Notes 600  7575 0    60   ~ 0
 Für Verteilung und Vorschlag 2 stehen ein inverter und ein invertierender Schmitttrigger zum Test bereit.\nAufgrund fehlender Parameter der Kristall-Ersatzschaltung kann keine der Schaltungen simuliert werden.\nDie angegebene Dimensionierung der Bauelemente ist mit einer Schätzung behaftet und experimentel sowohl für eine Testschaltung als\nauch für das finale Layout zu überprüfen\n
+Wire Wire Line
+	2500 2350 3550 2350
+Wire Wire Line
+	3200 2650 3200 2700
+Wire Wire Line
+	3300 3250 3550 3250
+Wire Wire Line
+	3300 1600 3300 3250
+Wire Wire Line
+	3300 2050 3550 2050
+Connection ~ 3300 2050
+Wire Wire Line
+	5450 2350 5450 2950
+Wire Wire Line
+	5450 3250 5450 3450
 $EndSCHEMATC
