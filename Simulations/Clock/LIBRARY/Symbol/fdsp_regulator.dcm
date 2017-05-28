@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM284x
+D Stepdown DC/DC switching regulator
+$ENDCMP
+#
+#End Doc Library
