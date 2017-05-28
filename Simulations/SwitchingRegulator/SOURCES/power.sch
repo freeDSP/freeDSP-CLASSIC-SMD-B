@@ -155,7 +155,7 @@ $EndComp
 Wire Wire Line
 	5900 5450 5900 5350
 Wire Wire Line
-	3900 5350 8750 5350
+	1950 5350 8750 5350
 Wire Wire Line
 	8200 5350 8200 5250
 Wire Wire Line
@@ -181,16 +181,61 @@ Wire Wire Line
 	3900 4750 3900 4250
 Connection ~ 3900 4250
 Wire Wire Line
-	3450 4250 4850 4250
+	2750 4250 4850 4250
 $Comp
-L BAS40-00 D?
+L BAS40-00 D3
 U 1 1 592B508F
 P 6300 4850
-F 0 "D?" H 6300 4950 50  0000 C CNN
+F 0 "D3" H 6300 4950 50  0000 C CNN
 F 1 "BAS40-00" H 6300 4750 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6300 4650 20  0001 C CNN
 F 3 "http://www.vishay.com/docs/85701/bas40v.pdf" H 6300 4700 20  0001 C CNN
 	1    6300 4850
 	0    1    1    0   
 $EndComp
+$Comp
+L ZENER D1
+U 1 1 592B0AB6
+P 3100 4900
+F 0 "D1" H 3100 5000 50  0000 C CNN
+F 1 "P6SMB 27V" H 3100 4800 50  0000 C CNN
+F 2 "fdsp_diode:SMB" H 3100 4900 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/54/6smb-778327.pdf" H 3100 4900 60  0001 C CNN
+	1    3100 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 592B0C13
+P 2600 4250
+F 0 "D2" H 2600 4350 50  0000 C CNN
+F 1 "B140" H 2600 4150 50  0000 C CNN
+F 2 "fdsp_diode:SMA" H 2600 4250 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/115/ds13002-60388.pdf" H 2600 4250 60  0001 C CNN
+	1    2600 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 J1
+U 1 1 592B0D49
+P 1750 4300
+F 0 "J1" H 1750 4450 50  0000 C CNN
+F 1 "CONN_01X02" V 1850 4300 50  0000 C CNN
+F 2 "fdsp_connector:RIACON101-2" H 1750 4300 50  0001 C CNN
+F 3 "" H 1750 4300 50  0001 C CNN
+	1    1750 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 5350 1950 4350
+Connection ~ 3900 5350
+Wire Wire Line
+	3100 5100 3100 5350
+Connection ~ 3100 5350
+Wire Wire Line
+	2450 4250 1950 4250
+Connection ~ 3450 4250
+Wire Wire Line
+	3100 4700 3100 4250
+Connection ~ 3100 4250
 $EndSCHEMATC

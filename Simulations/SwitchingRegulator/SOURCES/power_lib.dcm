@@ -4,4 +4,9 @@ $CMP BAS40-00
 D Schottky Diode
 $ENDCMP
 #
+$CMP CONN_01X02
+D Connector, single row, 01x02, pin header
+K connector
+$ENDCMP
+#
 #End Doc Library
