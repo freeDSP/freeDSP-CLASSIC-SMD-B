@@ -72,12 +72,12 @@ $EndComp
 $Comp
 L VCC #PWR?
 U 1 1 591AED7A
-P 2550 6000
-F 0 "#PWR?" H 2550 5850 50  0001 C CNN
-F 1 "VCC" H 2567 6173 50  0000 C CNN
-F 2 "" H 2550 6000 50  0001 C CNN
-F 3 "" H 2550 6000 50  0001 C CNN
-	1    2550 6000
+P 2700 3750
+F 0 "#PWR?" H 2700 3600 50  0001 C CNN
+F 1 "VCC" H 2717 3923 50  0000 C CNN
+F 2 "" H 2700 3750 50  0001 C CNN
+F 3 "" H 2700 3750 50  0001 C CNN
+	1    2700 3750
 	1    0    0    -1  
 $EndComp
 Text GLabel 3150 6800 2    60   Input ~ 0
@@ -159,17 +159,6 @@ F 1 "GND" H 5050 4750 50  0000 C CNN
 F 2 "" H 5050 4900 50  0001 C CNN
 F 3 "" H 5050 4900 50  0001 C CNN
 	1    5050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR?
-U 1 1 592B2EA2
-P 5050 4275
-F 0 "#PWR?" H 5050 4125 50  0001 C CNN
-F 1 "VCC" H 5050 4425 50  0000 C CNN
-F 2 "" H 5050 4275 50  0001 C CNN
-F 3 "" H 5050 4275 50  0001 C CNN
-	1    5050 4275
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 5700 0    60   Input ~ 0
@@ -320,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	3875 4400 5050 4400
 Wire Wire Line
-	5050 4275 5050 4500
+	5050 4025 5050 4500
 Connection ~ 5050 4400
 $Comp
 L Crystal_Oszillator X?
@@ -341,4 +330,24 @@ Connection ~ 1525 6000
 Wire Wire Line
 	2600 6000 2600 6300
 Connection ~ 2550 6000
+$Comp
+L FILTER FB?
+U 1 1 592C47A3
+P 2700 4100
+F 0 "FB?" H 2700 4250 50  0000 C CNN
+F 1 "330" H 2700 4000 50  0000 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 2700 4100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c31e-794748.pdf" H 2700 4100 50  0001 C CNN
+	1    2700 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 4025 5050 4025
+Wire Wire Line
+	3150 4450 3150 4025
+Wire Wire Line
+	2550 4450 3150 4450
+Wire Wire Line
+	2550 6000 2550 4450
+Connection ~ 2700 4450
 $EndSCHEMATC

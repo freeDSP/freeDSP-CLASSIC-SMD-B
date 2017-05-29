@@ -72,23 +72,14 @@ $EndComp
 $Comp
 L C Cin1
 U 1 1 592AEB22
-P 3900 4900
-F 0 "Cin1" H 3925 5000 50  0000 L CNN
-F 1 "1u" H 3925 4800 50  0000 L CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" H 3938 4750 30  0001 C CNN
-F 3 "" H 3900 4900 60  0000 C CNN
-	1    3900 4900
+P 4350 4900
+F 0 "Cin1" H 4375 5000 50  0000 L CNN
+F 1 "1u" H 4375 4800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 4388 4750 30  0001 C CNN
+F 3 "" H 4350 4900 60  0000 C CNN
+	1    4350 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 4400 4550 4400
-Wire Wire Line
-	4550 4400 4550 4250
-Connection ~ 4550 4250
-Wire Wire Line
-	4850 4550 4850 5350
-Wire Wire Line
-	3900 5050 3900 5350
 $Comp
 L C Cboot1
 U 1 1 592AEC30
@@ -144,33 +135,6 @@ F 3 "" H 8750 4800 60  0000 C CNN
 	1    8750 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5850 4250 6350 4250
-Wire Wire Line
-	7050 4250 7050 4400
-Wire Wire Line
-	7050 4400 5850 4400
-Wire Wire Line
-	7050 4250 6650 4250
-Wire Wire Line
-	6300 4700 6300 4400
-Connection ~ 6300 4400
-Wire Wire Line
-	8200 4500 8200 4400
-Wire Wire Line
-	7650 4400 8750 4400
-Wire Wire Line
-	8200 4800 8200 4950
-Wire Wire Line
-	8750 4400 8750 4650
-Connection ~ 8200 4400
-Wire Wire Line
-	6900 4900 8200 4900
-Wire Wire Line
-	6900 4900 6900 4550
-Wire Wire Line
-	6900 4550 5850 4550
-Connection ~ 8200 4900
 $Comp
 L GND #PWR01
 U 1 1 592AF8ED
@@ -182,20 +146,6 @@ F 3 "" H 5900 5450 60  0000 C CNN
 	1    5900 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 5450 5900 5350
-Wire Wire Line
-	1950 5350 8750 5350
-Wire Wire Line
-	8200 5350 8200 5250
-Wire Wire Line
-	8750 5350 8750 4950
-Connection ~ 8200 5350
-Wire Wire Line
-	6300 5000 6300 5350
-Connection ~ 6300 5350
-Connection ~ 5900 5350
-Connection ~ 4850 5350
 $Comp
 L VIN #PWR02
 U 1 1 592B0082
@@ -207,11 +157,6 @@ F 3 "" H 3450 4250 60  0000 C CNN
 	1    3450 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 4750 3900 4250
-Connection ~ 3900 4250
-Wire Wire Line
-	2750 4250 4850 4250
 $Comp
 L BAS40-00 D3
 U 1 1 592B508F
@@ -256,9 +201,67 @@ F 3 "" H 1750 4300 50  0001 C CNN
 	1    1750 4300
 	-1   0    0    1   
 $EndComp
+$Comp
+L FILTER FB?
+U 1 1 592C3762
+P 3975 4250
+F 0 "FB?" H 3975 4400 50  0000 C CNN
+F 1 "330" H 3975 4150 50  0000 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 3975 4250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c31e-794748.pdf" H 3975 4250 50  0001 C CNN
+	1    3975 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4400 4550 4400
+Wire Wire Line
+	4550 4400 4550 4250
+Connection ~ 4550 4250
+Wire Wire Line
+	4850 4550 4850 5350
+Wire Wire Line
+	5850 4250 6350 4250
+Wire Wire Line
+	7050 4250 7050 4400
+Wire Wire Line
+	7050 4400 5850 4400
+Wire Wire Line
+	7050 4250 6650 4250
+Wire Wire Line
+	6300 4700 6300 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	8200 4500 8200 4400
+Wire Wire Line
+	7650 4400 8750 4400
+Wire Wire Line
+	8200 4800 8200 4950
+Wire Wire Line
+	8750 4400 8750 4650
+Connection ~ 8200 4400
+Wire Wire Line
+	6900 4900 8200 4900
+Wire Wire Line
+	6900 4900 6900 4550
+Wire Wire Line
+	6900 4550 5850 4550
+Connection ~ 8200 4900
+Wire Wire Line
+	5900 5450 5900 5350
+Wire Wire Line
+	1950 5350 8750 5350
+Wire Wire Line
+	8200 5350 8200 5250
+Wire Wire Line
+	8750 5350 8750 4950
+Connection ~ 8200 5350
+Wire Wire Line
+	6300 5000 6300 5350
+Connection ~ 6300 5350
+Connection ~ 5900 5350
+Connection ~ 4850 5350
 Wire Wire Line
 	1950 5350 1950 4350
-Connection ~ 3900 5350
 Wire Wire Line
 	3100 5100 3100 5350
 Connection ~ 3100 5350
@@ -268,4 +271,14 @@ Connection ~ 3450 4250
 Wire Wire Line
 	3100 4700 3100 4250
 Connection ~ 3100 4250
+Wire Wire Line
+	2750 4250 3625 4250
+Wire Wire Line
+	4325 4250 4850 4250
+Wire Wire Line
+	4350 4750 4350 4250
+Connection ~ 4350 4250
+Wire Wire Line
+	4350 5050 4350 5350
+Connection ~ 4350 5350
 $EndSCHEMATC

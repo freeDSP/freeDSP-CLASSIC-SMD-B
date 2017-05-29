@@ -695,7 +695,7 @@ P 5550 5100
 F 0 "Q13" H 5850 5150 50  0000 R CNN
 F 1 "BSS123" H 6150 5050 50  0000 R CNN
 F 2 "" H 5750 5200 29  0000 C CNN
-F 3 "" H 5550 5100 60  0000 C CNN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS123.pdf" H 5550 5100 60  0001 C CNN
 	1    5550 5100
 	1    0    0    -1  
 $EndComp
