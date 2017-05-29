@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name fdsp_capacitor)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_capacitor.pretty)(options "")(descr ""))
+  (lib (name fdsp_connector)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_connector.pretty)(options "")(descr ""))
+  (lib (name fdsp_crystal-oscillator)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_crystal-oscillator.pretty)(options "")(descr ""))
+  (lib (name fdsp_diode)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_diode.pretty)(options "")(descr ""))
+  (lib (name fdsp_drillhole)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_drillhole.pretty)(options "")(descr ""))
+  (lib (name fdsp_fiducial)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_fiducial.pretty)(options "")(descr ""))
+  (lib (name fdsp_housing)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_housing.pretty)(options "")(descr ""))
+  (lib (name fdsp_inductor)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_inductor.pretty)(options "")(descr ""))
+  (lib (name fdsp_pinheader)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_pinheader.pretty)(options "")(descr ""))
+  (lib (name fdsp_resistor)(type KiCad)(uri C:\Users\Kai\Desktop\Hauptseminar\freeDSP-KiCadLibrary\Footprint\fdsp_resistor.pretty)(options "")(descr ""))
+)
