@@ -174,13 +174,7 @@ $EndComp
 Wire Wire Line
 	1825 3175 2375 3175
 Wire Wire Line
-	1825 2375 2400 2375
-Wire Wire Line
-	2400 2375 3475 2375
-Wire Wire Line
-	3475 2375 5025 2375
-Wire Wire Line
-	5025 2375 5500 2375
+	1825 2375 5500 2375
 Wire Wire Line
 	3475 3175 4025 3175
 Wire Wire Line
@@ -196,9 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	1825 2375 1825 2600
 Wire Wire Line
-	1825 2900 1825 3175
-Wire Wire Line
-	1825 3175 1825 3325
+	1825 2900 1825 3325
 Connection ~ 1825 3175
 $Comp
 L Crystal_Oszillator X?
@@ -229,17 +221,6 @@ F 3 "http://www.mouser.com/ds/2/281/c31e-794748.pdf" H 1825 2025 50  0001 C CNN
 	1    1825 2025
 	0    1    1    0   
 $EndComp
-$Comp
-L IDT2305-1 U?
-U 1 1 592C77EA
-P 5950 2675
-F 0 "U?" H 5750 3125 60  0000 C CNN
-F 1 "IDT2305-1" H 5950 2225 60  0000 C CNN
-F 2 "" H 5950 2325 60  0001 C CNN
-F 3 "" H 5950 2325 60  0001 C CNN
-	1    5950 2675
-	1    0    0    -1  
-$EndComp
 Connection ~ 3475 2375
 Wire Wire Line
 	4025 3175 4025 2675
@@ -247,9 +228,7 @@ Wire Wire Line
 	4025 2675 5500 2675
 Connection ~ 1825 2375
 Wire Wire Line
-	5025 3125 5025 3250
-Wire Wire Line
-	5025 3250 5025 3325
+	5025 3125 5025 3325
 Wire Wire Line
 	5025 3250 5500 3250
 Wire Wire Line
@@ -258,4 +237,15 @@ Wire Wire Line
 	5025 2825 5025 2375
 Connection ~ 5025 2375
 Connection ~ 5025 3250
+$Comp
+L IDT2305NZ U?
+U 1 1 592C77F5
+P 5950 2675
+F 0 "U?" H 5750 3125 60  0000 C CNN
+F 1 "IDT2305NZ" H 5950 2225 60  0000 C CNN
+F 2 "" H 5950 2325 60  0001 C CNN
+F 3 "" H 5950 2325 60  0001 C CNN
+	1    5950 2675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
