@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Clock-rescue
 LIBS:eigenes
 LIBS:freeDSP
 LIBS:dsp
@@ -31,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Clock-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -398,7 +396,7 @@ P 5100 4700
 F 0 "U" H 5250 4800 50  0000 C CNN
 F 1 "74AC14" H 5300 4600 50  0000 C CNN
 F 2 "SMD_Packages:SOIC-14_N" H 5100 4700 50  0001 C CNN
-F 3 "" H 5100 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ac14.pdf" H 5100 4700 50  0001 C CNN
 	1    5100 4700
 	1    0    0    -1  
 $EndComp
@@ -630,7 +628,7 @@ P 9350 2150
 F 0 "U" H 10075 2750 50  0000 C CNN
 F 1 "74LVC1404" H 9950 975 50  0000 C CNN
 F 2 "" H 9425 2150 50  0001 C CNN
-F 3 "" H 9425 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1404.pdf" H 9425 2150 50  0001 C CNN
 	1    9350 2150
 	1    0    0    -1  
 $EndComp
