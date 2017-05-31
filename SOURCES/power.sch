@@ -277,8 +277,6 @@ F 3 "" H 2125 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 4400
-Wire Wire Line
-	7825 4400 9800 4400
 Connection ~ 8750 4400
 $Comp
 L +3V3 #PWR070
@@ -342,8 +340,6 @@ $EndComp
 Wire Wire Line
 	2125 4200 2125 4250
 Connection ~ 2125 4250
-Wire Wire Line
-	1950 5350 9800 5350
 $Comp
 L CP C_res3
 U 1 1 592EFEEA
@@ -353,17 +349,6 @@ F 1 "x" H 9475 4700 50  0000 L CNN
 F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 9488 4650 30  0001 C CNN
 F 3 "" H 9450 4800 60  0000 C CNN
 	1    9450 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP C_res4
-U 1 1 592EFFF6
-P 9800 4800
-F 0 "C_res4" H 9825 4900 50  0000 L CNN
-F 1 "x" H 9825 4700 50  0000 L CNN
-F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 9838 4650 30  0001 C CNN
-F 3 "" H 9800 4800 60  0000 C CNN
-	1    9800 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -377,22 +362,16 @@ F 3 "" H 9100 4800 60  0000 C CNN
 	1    9100 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9800 4400 9800 4650
 Connection ~ 9100 4400
 Wire Wire Line
 	9100 4650 9100 4400
 Wire Wire Line
-	9450 4650 9450 4400
-Connection ~ 9450 4400
+	9450 4400 9450 4650
 Wire Wire Line
 	9100 5350 9100 4950
 Wire Wire Line
 	9450 5350 9450 4950
 Connection ~ 9100 5350
-Wire Wire Line
-	9800 5350 9800 4950
-Connection ~ 9450 5350
 $Comp
 L CP C_res1
 U 1 1 592F05A0
@@ -425,4 +404,8 @@ F 3 "http://www.mouser.com/ds/2/115/ds13002-60388.pdf" H 6300 4850 60  0001 C CN
 	1    6300 4850
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	7825 4400 9450 4400
+Wire Wire Line
+	9450 5350 1950 5350
 $EndSCHEMATC
