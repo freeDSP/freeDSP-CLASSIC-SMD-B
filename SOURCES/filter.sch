@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:freeDSP_Classic_SMD-rescue
 LIBS:fdsp_device_new
 LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new
@@ -97,10 +98,10 @@ F 3 "" H 8150 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C36
+L CP C38
 U 1 1 592C428E
 P 9000 1800
-F 0 "C36" H 9025 1900 50  0000 L CNN
+F 0 "C38" H 9025 1900 50  0000 L CNN
 F 1 "47u" H 9025 1700 50  0000 L CNN
 F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 9038 1650 50  0001 C CNN
 F 3 "" H 9000 1800 50  0000 C CNN
@@ -233,10 +234,10 @@ F 3 "" H 8250 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C37
+L CP C39
 U 1 1 592C64BF
 P 9100 4100
-F 0 "C37" H 9125 4200 50  0000 L CNN
+F 0 "C39" H 9125 4200 50  0000 L CNN
 F 1 "47u" H 9125 4000 50  0000 L CNN
 F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 9138 3950 50  0001 C CNN
 F 3 "" H 9100 4100 50  0000 C CNN
@@ -1136,4 +1137,96 @@ F 3 "" H 5200 7450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1550 5150 1250 5150
+$Comp
+L GND #PWR065
+U 1 1 592EE586
+P 8450 6200
+F 0 "#PWR065" H 8450 5950 50  0001 C CNN
+F 1 "GND" H 8450 6050 50  0000 C CNN
+F 2 "" H 8450 6200 60  0000 C CNN
+F 3 "" H 8450 6200 60  0000 C CNN
+	1    8450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C36
+U 1 1 592EE7F4
+P 8450 5900
+F 0 "C36" H 8475 6000 50  0000 L CNN
+F 1 "10u" H 8475 5800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 8488 5750 50  0001 C CNN
+F 3 "" H 8450 5900 50  0000 C CNN
+	1    8450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C37
+U 1 1 592EE981
+P 8750 5900
+F 0 "C37" H 8775 6000 50  0000 L CNN
+F 1 "10u" H 8775 5800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 8788 5750 50  0001 C CNN
+F 3 "" H 8750 5900 50  0000 C CNN
+	1    8750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR066
+U 1 1 592EEA39
+P 8450 5600
+F 0 "#PWR066" H 8450 5450 50  0001 C CNN
+F 1 "+3V3" H 8450 5740 50  0000 C CNN
+F 2 "" H 8450 5600 50  0000 C CNN
+F 3 "" H 8450 5600 50  0000 C CNN
+	1    8450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C40
+U 1 1 592EED51
+P 9150 5900
+F 0 "C40" H 9175 6000 50  0000 L CNN
+F 1 "100n" H 9175 5800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 9188 5750 50  0001 C CNN
+F 3 "" H 9150 5900 50  0000 C CNN
+	1    9150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C41
+U 1 1 592EEF8E
+P 9450 5900
+F 0 "C41" H 9475 6000 50  0000 L CNN
+F 1 "100n" H 9475 5800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 9488 5750 50  0001 C CNN
+F 3 "" H 9450 5900 50  0000 C CNN
+	1    9450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5600 8450 5750
+Wire Wire Line
+	8450 5700 9450 5700
+Wire Wire Line
+	9450 5700 9450 5750
+Wire Wire Line
+	9450 6050 9450 6100
+Wire Wire Line
+	9450 6100 8450 6100
+Wire Wire Line
+	8450 6050 8450 6200
+Connection ~ 8450 6100
+Wire Wire Line
+	8750 6050 8750 6100
+Connection ~ 8750 6100
+Wire Wire Line
+	9150 6050 9150 6100
+Connection ~ 9150 6100
+Wire Wire Line
+	9150 5750 9150 5700
+Connection ~ 9150 5700
+Wire Wire Line
+	8750 5750 8750 5700
+Connection ~ 8750 5700
+Connection ~ 8450 5700
 $EndSCHEMATC
