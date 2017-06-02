@@ -1148,4 +1148,6 @@ Wire Wire Line
 	2350 1000 3100 1000
 Wire Wire Line
 	2350 1400 3100 1400
+Text Label 5975 4800 0    60   ~ 0
+GND_SW
 $EndSCHEMATC
