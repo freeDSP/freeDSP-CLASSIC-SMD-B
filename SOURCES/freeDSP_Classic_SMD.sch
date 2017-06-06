@@ -164,7 +164,7 @@ U 1 1 5523E35E
 P 3130 910
 F 0 "C2" H 3130 1010 40  0000 L CNN
 F 1 "10u" H 3136 825 40  0000 L CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" H 3168 760 30  0001 C CNN
+F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 3168 760 30  0001 C CNN
 F 3 "" H 3130 910 60  0000 C CNN
 	1    3130 910 
 	0    1    1    0   
@@ -208,7 +208,7 @@ U 1 1 5523EB83
 P 4300 1120
 F 0 "C5" H 4300 1220 40  0000 L CNN
 F 1 "10u" H 4306 1035 40  0000 L CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" H 4338 970 30  0001 C CNN
+F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 4338 970 30  0001 C CNN
 F 3 "" H 4300 1120 60  0000 C CNN
 	1    4300 1120
 	0    -1   -1   0   
@@ -252,7 +252,7 @@ U 1 1 5523F6C1
 P 5070 955
 F 0 "C7" H 5070 1055 40  0000 L CNN
 F 1 "10u" H 5076 870 40  0000 L CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" H 5108 805 30  0001 C CNN
+F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 5108 805 30  0001 C CNN
 F 3 "" H 5070 955 60  0000 C CNN
 	1    5070 955 
 	0    -1   -1   0   
@@ -309,7 +309,7 @@ U 1 1 552404EA
 P 6350 2835
 F 0 "C14" H 6350 2935 40  0000 L CNN
 F 1 "10u" H 6356 2750 40  0000 L CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" H 6388 2685 30  0001 C CNN
+F 2 "fdsp_capacitor:C_Radial_D5_L11_P2" H 6388 2685 30  0001 C CNN
 F 3 "" H 6350 2835 60  0000 C CNN
 	1    6350 2835
 	1    0    0    -1  
@@ -1653,4 +1653,6 @@ $EndComp
 Wire Wire Line
 	5215 2735 5215 2835
 Connection ~ 5215 2835
+Connection ~ 5175 7450
+Connection ~ 4475 7750
 $EndSCHEMATC
