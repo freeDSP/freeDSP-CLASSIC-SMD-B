@@ -50,10 +50,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Filter"
+Date "2017-06-16"
+Rev "1"
+Comp "Kai Dehmelt"
 Comment1 ""
 Comment2 ""
 Comment3 ""

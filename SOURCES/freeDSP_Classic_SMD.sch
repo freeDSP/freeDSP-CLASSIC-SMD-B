@@ -51,9 +51,9 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 5
 Title "freeDSP Classic SMD"
-Date ""
+Date "2017-06-16"
 Rev "1"
-Comp "Robert Kunz"
+Comp "Max Becker, Kai Dehmelt, Christoph Schmidt, Max Wulf"
 Comment1 ""
 Comment2 ""
 Comment3 ""
