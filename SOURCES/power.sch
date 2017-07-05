@@ -405,7 +405,37 @@ F 3 "http://www.mouser.com/ds/2/115/ds13002-60388.pdf" H 6300 4850 60  0001 C CN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7825 4400 9450 4400
+	7825 4400 9925 4400
 Wire Wire Line
-	9450 5350 1950 5350
+	1950 5350 9925 5350
+$Comp
+L LED D11
+U 1 1 595D0A2A
+P 9925 5100
+F 0 "D11" H 9925 5200 50  0000 C CNN
+F 1 "LED" H 9925 5000 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206_HandSoldering" H 9925 5100 60  0001 C CNN
+F 3 "" H 9925 5100 60  0000 C CNN
+	1    9925 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R48
+U 1 1 595D0AB5
+P 9925 4625
+F 0 "R48" V 10005 4625 50  0000 C CNN
+F 1 "330" V 9925 4625 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206_HandSoldering" V 9855 4625 30  0001 C CNN
+F 3 "" H 9925 4625 30  0000 C CNN
+	1    9925 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9925 4400 9925 4475
+Connection ~ 9450 4400
+Wire Wire Line
+	9925 4775 9925 4900
+Wire Wire Line
+	9925 5350 9925 5300
+Connection ~ 9450 5350
 $EndSCHEMATC
