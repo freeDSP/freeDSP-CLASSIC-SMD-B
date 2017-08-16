@@ -1,9 +1,9 @@
 EESchema Schematic File Version 2
-LIBS:freeDSP_Classic_SMD-rescue
 LIBS:fdsp_device_new
 LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new
 LIBS:fdsp_transistor_new
+LIBS:fdsp_oscillator_new
 LIBS:fdsp_amplifier
 LIBS:fdsp_connector
 LIBS:fdsp_converter
@@ -15,36 +15,6 @@ LIBS:fdsp_pinhead
 LIBS:fdsp_power
 LIBS:fdsp_regulator
 LIBS:fdsp_transistor
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:freeDSP_Classic_SMD-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -183,7 +153,7 @@ Wire Wire Line
 	1825 2900 1825 3325
 Connection ~ 1825 3175
 $Comp
-L Crystal_Oszillator-RESCUE-freeDSP_Classic_SMD X1
+L Crystal_Oszillator X1
 U 1 1 592DBD72
 P 2925 2925
 F 0 "X1" H 2925 3375 60  0000 C CNN
