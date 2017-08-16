@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:freeDSP_Classic_SMD-rescue
 LIBS:fdsp_device_new
 LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new
@@ -15,6 +16,7 @@ LIBS:fdsp_pinhead
 LIBS:fdsp_power
 LIBS:fdsp_regulator
 LIBS:fdsp_transistor
+LIBS:freeDSP_Classic_SMD-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
