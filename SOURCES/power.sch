@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:freeDSP_Classic_SMD-rescue
 LIBS:fdsp_device_new
 LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new

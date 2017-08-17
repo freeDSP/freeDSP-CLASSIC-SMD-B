@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:freeDSP_Classic_SMD-rescue
 LIBS:fdsp_device_new
 LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new
@@ -186,7 +185,7 @@ F 3 "" H 4300 1120 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ADAU1701-New U1
+L ADAU1701 U1
 U 1 1 5523CECE
 P 3800 2955
 F 0 "U1" H 2790 4075 40  0000 C CNN
