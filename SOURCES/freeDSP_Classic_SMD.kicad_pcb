@@ -3,7 +3,7 @@
   (general
     (links 414)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 54.327429 56.123 152.682572 159.661)
     (thickness 1.6)
     (drawings 16)
     (tracks 2268)
@@ -64,9 +64,9 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFC4E0F)
     (pcbplotparams
-      (layerselection 0x020c0_00000000)
-      (usegerberextensions false)
-      (excludeedgelayer true)
+      (layerselection 0x020f0_80000001)
+      (usegerberextensions true)
+      (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "/home/max/Schreibtisch/Uni/SS17/HS Kommunikationssysteme/freeDSP/Bericht/"))
+      (outputdirectory ../GERBER/))
   )
 
   (net 0 "")
