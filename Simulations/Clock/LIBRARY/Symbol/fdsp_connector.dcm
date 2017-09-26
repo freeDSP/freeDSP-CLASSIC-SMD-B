@@ -1,0 +1,114 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AUDIO_JACK_STEREO_12PIN_FCR1117
+D audio jack TRS 6 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP AUDIO_JACK_STEREO_3PIN
+D Stereo audio jack 3-pin.
+K audio jack
+$ENDCMP
+#
+$CMP AUDIO_JACK_STEREO_6PIN
+D Stereo audio jack 6-pin.
+K audio jack
+$ENDCMP
+#
+$CMP BARREL_JACK
+D DC Barrel Jack
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP DB15
+K CONN
+$ENDCMP
+#
+$CMP DB25
+K CONN
+$ENDCMP
+#
+$CMP DB37
+K CONN
+$ENDCMP
+#
+$CMP DB9
+K CONN
+$ENDCMP
+#
+$CMP FC684206R
+D SPDIF Dual Receiverr Toslink + RCA/Cinch
+K SPDIF
+$ENDCMP
+#
+$CMP FC684206T
+D SPDIF Dual Transmitter Toslink + RCA/Cinch
+K SPDIF
+$ENDCMP
+#
+$CMP RCA_01
+D Mono RCA connector for audio applications.
+K RCA mono
+$ENDCMP
+#
+$CMP RCA_02
+D Stereo RCA connector for audio applications.
+K RCA stereo
+$ENDCMP
+#
+$CMP RCA_02x02
+D Cinch Connector 02x02; TOP: Left(White); BOT: Right(Red)
+K Cinch
+$ENDCMP
+#
+$CMP STDCONN
+D FreeDSP Standard Extension Header
+K FreeDSP Standard Connector Header Extension
+$ENDCMP
+#
+$CMP TEST
+D point
+K point tp
+$ENDCMP
+#
+$CMP TORX147
+D Toslink receiver socket.
+K Toslink Receiver
+$ENDCMP
+#
+$CMP TOTX147
+D Toslink transmitter socket.
+K Toslink Transmitter
+$ENDCMP
+#
+$CMP USB_A
+D A connector
+K USB USB_A
+$ENDCMP
+#
+$CMP USB_B
+D B connector
+K USB USB_B
+$ENDCMP
+#
+$CMP USB_OTG
+D USB micro/mini connector
+K USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
+$CMP XLR3
+D 3 pins
+K CONN
+$ENDCMP
+#
+$CMP XLR4
+D 4 pins
+K CONN
+$ENDCMP
+#
+$CMP XLR5
+D 5 pins
+K CONN
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADAU1452
+D Analog Devices SigmaDSP ADAU1452
+K DSP
+$ENDCMP
+#
+#End Doc Library

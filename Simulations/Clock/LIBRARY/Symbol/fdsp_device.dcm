@@ -1,0 +1,115 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+$ENDCMP
+#
+$CMP CP_Small
+D Polarised capacitor
+$ENDCMP
+#
+$CMP CTRIM
+D Variable capacitor
+K trimmer
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K Quartz, Ceramic, Filter, Resonator
+$ENDCMP
+#
+$CMP Crystal_Oszillator
+D Four pin crytal oszillator
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP D_Schottky
+D Diode schottky
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Diode Schottky
+$ENDCMP
+#
+$CMP D_Small
+D Diode
+$ENDCMP
+#
+$CMP FILTER
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+$CMP FUSE_Small
+D Fuse
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LED_Small
+D Led
+$ENDCMP
+#
+$CMP POT
+D Potentionmeter
+K R
+$ENDCMP
+#
+$CMP POT_DUAL
+D Potentionmeter
+K R
+$ENDCMP
+#
+$CMP Q_PNP_BCE
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_Small
+D Resistor
+$ENDCMP
+#
+$CMP TVS
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AK5384
+D 4ch. ADC; Cascade TDM/I2S
+K ADC
+$ENDCMP
+#
+$CMP PCM1681
+D TI PCM1681 8Channel DAC; I2S/TDM; SNR: 105dB; Dyn. Range: 105dB
+$ENDCMP
+#
+$CMP PCM1681-Q1
+D TI PCM1681 Automotive 8Channel DAC; I2S/TDM; SNR: 105dB; Dyn. Range: 105dB
+$ENDCMP
+#
+#End Doc Library

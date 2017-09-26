@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM358
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP NE5532
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,4 @@
+[submodule "LIBRARY"]
+	path = LIBRARY
+	url = https://github.com/freeDSP/freeDSP-KiCadLibrary.git
+	branch = master
