@@ -2,12 +2,22 @@
 
 BOARD STATUS: READY TO BE BUILT
 
-SMD update of freeDSP CLASSIC.
-
-You can find a PDF version of the schematic in the SOURCES folder (freeDSP_Classic_SMD.pdf)
+SMD update of the freeDSP CLASSIC.
 
 LICENCE: Creative Commons Attribution Share-Alike 4.0 license
 
+http://freedsp.cc
+
+## About
+
+The freeDSP is an open-source digital signal processor family for the do-it-yourself community. The applications range from active loudspeaker concepts (digital crossovers, bass enhancement, ...) and room equalization over advanced musical effect processors to car audio signal processing. 
+
+This _freeDSP Classic SMD-B_ is a updated SMD version of the original _freeDSP Classic_ with a few improvements/changes.
+This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad-pcb.org/).
+
+More informations kann be found on the [freeDSP website](http://freedsp.cc)
+
+You can find a PDF version of the schematic in the SOURCES folder (freeDSP_Classic_SMD.pdf)
 
 ## Links
 
