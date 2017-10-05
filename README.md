@@ -2,30 +2,45 @@
 
 BOARD STATUS: READY TO BE BUILT
 
-SMD update of freeDSP CLASSIC.
+SMD update of the freeDSP CLASSIC.
 
 LICENCE: Creative Commons Attribution Share-Alike 4.0 license
 
+http://freedsp.cc
+
+## About
+
+The freeDSP is an open-source digital signal processor family for the do-it-yourself community. The applications range from active loudspeaker concepts (digital crossovers, bass enhancement, ...) and room equalization over advanced musical effect processors to car audio signal processing. 
+
+This _freeDSP Classic SMD-B_ is a updated SMD version of the original _freeDSP Classic_ with a few improvements/changes.
+This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad-pcb.org/).
+
+More informations kann be found on the [freeDSP website](http://freedsp.cc)
+
+You can find a PDF version of the schematic in the SOURCES folder (freeDSP_Classic_SMD.pdf)
+
 ## Links
 
-#### TODO List
-https://github.com/maxanier/freeDSP-CLASSIC-SMD-B/wiki/TODO
+#### FreeDSP Website
+[http://freedsp.cc/](http://freedsp.cc)
+
+#### Documentation
+[Google Doc](https://docs.google.com/document/d/1K3joEg4iIRMazfqGLaVoBdybitr4o_KIVZfQ-qeNDzs/edit?usp=sharing)
 
 #### FreeDSP Guidelines
 https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
 
-#### FreeDSP Website
-http://freedsp.cc/
+
 
 ## Git usage
 
 #### How to setup local repository
 - Change to your FreeDSP directory
 - Clone the repository (including submodule)  
- `git clone --recursive https://github.com/maxanier/freeDSP-CLASSIC-SMD-B.git --branch dev-hs-01 Classic-SMD-B`
+ `git clone --recursive https://github.com/freeDSP/freeDSP-CLASSIC-SMD-B.git`
 - Change to the newly created Classic-SMD-B directory
-- Checkout a branch for the library submodule, so you can modify it as well  
-  `git submodule foreach 'git checkout 'dev-hs-01''`
+- Checkout a branch for the library submodule, if you want to modify it as well
+  `git submodule foreach 'git checkout 'master''`
 - Open the project file in KiCad
 
 #### How to update the local copy
@@ -55,6 +70,6 @@ http://freedsp.cc/
   Shows general information about the current branch, uncommited changes, not yet added new files and more
 - `git diff`  
   Shows uncommited changes
-- `git reset --hard origin/dev-hs-01`
+- `git reset --hard origin/master`
   Reset all files to the current status of the dev-hs-01 branch on the Github repository  
   **Careful** This deletes all local changes, so make sure all changes you made and you do not want to delete are pushed to the remote repository
