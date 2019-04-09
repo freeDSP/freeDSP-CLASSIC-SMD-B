@@ -1,6 +1,22 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_transistor_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
 LIBS:freeDSP_Classic_SMD-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +31,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L freeDSP_Classic_SMD-rescue:SN74LVC3G14 U5
+L SN74LVC3G14 U5
 U 1 1 591CA346
 P 4450 4500
 F 0 "U5" H 4600 4600 50  0000 C CNN
@@ -26,7 +42,7 @@ F 3 "" H 4450 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:SN74LVC3G14 U5
+L SN74LVC3G14 U5
 U 3 1 591CA3FD
 P 6950 4500
 F 0 "U5" H 7100 4600 50  0000 C CNN
@@ -37,7 +53,7 @@ F 3 "" H 6950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:SN74LVC3G14 U5
+L SN74LVC3G14 U5
 U 2 1 591CA446
 P 5700 4500
 F 0 "U5" H 5850 4600 50  0000 C CNN
@@ -48,7 +64,7 @@ F 3 "" H 5700 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R36
+L R R36
 U 1 1 591CA5C8
 P 5700 4050
 F 0 "R36" V 5780 4050 50  0000 C CNN
@@ -59,7 +75,7 @@ F 3 "" H 5700 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C46
+L C C46
 U 1 1 591CA7B6
 P 3950 4750
 F 0 "C46" H 3975 4850 50  0000 L CNN
@@ -70,7 +86,7 @@ F 3 "" H 3950 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR075
+L GND #PWR075
 U 1 1 591CA831
 P 3950 5000
 F 0 "#PWR075" H 3950 4750 50  0001 C CNN
@@ -81,7 +97,7 @@ F 3 "" H 3950 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:D D8
+L D D8
 U 1 1 591CA887
 P 8650 4050
 F 0 "D8" H 8650 4150 50  0000 C CNN
@@ -92,7 +108,7 @@ F 3 "" H 8650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R42
+L R R42
 U 1 1 591CA97E
 P 7800 4050
 F 0 "R42" V 7880 4050 50  0000 C CNN
@@ -103,7 +119,7 @@ F 3 "" H 7800 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C50
+L C C50
 U 1 1 591CA9EB
 P 8250 4050
 F 0 "C50" H 8275 4150 50  0000 L CNN
@@ -114,7 +130,7 @@ F 3 "" H 8250 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:D D7
+L D D7
 U 1 1 591CAB41
 P 8450 4350
 F 0 "D7" H 8450 4450 50  0000 C CNN
@@ -125,7 +141,7 @@ F 3 "" H 8450 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C52
+L C C52
 U 1 1 591CAB8E
 P 9050 4350
 F 0 "C52" H 9075 4450 50  0000 L CNN
@@ -136,7 +152,7 @@ F 3 "" H 9050 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:D D9
+L D D9
 U 1 1 591CABFA
 P 9400 4050
 F 0 "D9" H 9400 4150 50  0000 C CNN
@@ -147,7 +163,7 @@ F 3 "" H 9400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:D D10
+L D D10
 U 1 1 591CAC47
 P 9800 4050
 F 0 "D10" H 9800 4150 50  0000 C CNN
@@ -158,7 +174,7 @@ F 3 "" H 9800 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C51
+L C C51
 U 1 1 591CAC8F
 P 9050 3750
 F 0 "C51" H 9075 3850 50  0000 L CNN
@@ -169,7 +185,7 @@ F 3 "" H 9050 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C53
+L C C53
 U 1 1 591CACEA
 P 10100 4350
 F 0 "C53" H 10125 4450 50  0000 L CNN
@@ -180,7 +196,7 @@ F 3 "" H 10100 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R43
+L R R43
 U 1 1 591CAD5A
 P 10400 4350
 F 0 "R43" V 10480 4350 50  0000 C CNN
@@ -191,7 +207,7 @@ F 3 "" H 10400 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR076
+L GND #PWR076
 U 1 1 591CAE5F
 P 8450 4650
 F 0 "#PWR076" H 8450 4400 50  0001 C CNN
@@ -202,7 +218,7 @@ F 3 "" H 8450 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR077
+L GND #PWR077
 U 1 1 591CAEB5
 P 9050 4650
 F 0 "#PWR077" H 9050 4400 50  0001 C CNN
@@ -213,7 +229,7 @@ F 3 "" H 9050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR078
+L GND #PWR078
 U 1 1 591CAEED
 P 10100 4650
 F 0 "#PWR078" H 10100 4400 50  0001 C CNN
@@ -224,7 +240,7 @@ F 3 "" H 10100 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR079
+L GND #PWR079
 U 1 1 591CAF25
 P 10400 4650
 F 0 "#PWR079" H 10400 4400 50  0001 C CNN
@@ -235,7 +251,7 @@ F 3 "" H 10400 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:LM393 U6
+L LM393 U6
 U 1 1 591CB71F
 P 6750 2950
 F 0 "U6" H 6900 3100 50  0000 C CNN
@@ -248,7 +264,7 @@ $EndComp
 Text GLabel 10600 3850 1    60   Input ~ 0
 -5V_SW
 $Comp
-L freeDSP_Classic_SMD-rescue:R R39
+L R R39
 U 1 1 591CBB0E
 P 6200 3350
 F 0 "R39" V 6280 3350 50  0000 C CNN
@@ -259,7 +275,7 @@ F 3 "" H 6200 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R38
+L R R38
 U 1 1 591CBC57
 P 6200 2600
 F 0 "R38" V 6280 2600 50  0000 C CNN
@@ -270,7 +286,7 @@ F 3 "" H 6200 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR080
+L GND #PWR080
 U 1 1 591CBEA2
 P 6500 3700
 F 0 "#PWR080" H 6500 3450 50  0001 C CNN
@@ -281,7 +297,7 @@ F 3 "" H 6500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR081
+L +3V3 #PWR081
 U 1 1 591CBF58
 P 6500 2250
 F 0 "#PWR081" H 6500 2100 50  0001 C CNN
@@ -292,7 +308,7 @@ F 3 "" H 6500 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C49
+L CP C49
 U 1 1 591CC026
 P 5750 3150
 F 0 "C49" H 5775 3250 50  0000 L CNN
@@ -303,7 +319,7 @@ F 3 "" H 5750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R40
+L R R40
 U 1 1 591CC480
 P 6900 2550
 F 0 "R40" V 6980 2550 50  0000 C CNN
@@ -314,7 +330,7 @@ F 3 "" H 6900 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R37
+L R R37
 U 1 1 591CC778
 P 5950 2600
 F 0 "R37" V 6030 2600 50  0000 C CNN
@@ -325,7 +341,7 @@ F 3 "" H 5950 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:D D6
+L D D6
 U 1 1 591CC95D
 P 5750 2600
 F 0 "D6" H 5750 2700 50  0000 C CNN
@@ -338,7 +354,7 @@ $EndComp
 Text GLabel 7950 2950 2    60   Input ~ 0
 3.3V_SW
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR082
+L +3V3 #PWR082
 U 1 1 591CD35F
 P 3950 2600
 F 0 "#PWR082" H 3950 2450 50  0001 C CNN
@@ -349,7 +365,7 @@ F 3 "" H 3950 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR083
+L GND #PWR083
 U 1 1 591CD3C2
 P 3950 3100
 F 0 "#PWR083" H 3950 2850 50  0001 C CNN
@@ -360,7 +376,7 @@ F 3 "" H 3950 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C45
+L CP C45
 U 1 1 591CD40F
 P 3950 2850
 F 0 "C45" H 3975 2950 50  0000 L CNN
@@ -371,7 +387,7 @@ F 3 "" H 3950 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C47
+L C C47
 U 1 1 591CD4D7
 P 4350 2850
 F 0 "C47" H 4375 2950 50  0000 L CNN
@@ -382,7 +398,7 @@ F 3 "" H 4350 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C48
+L C C48
 U 1 1 591CD58D
 P 4700 2850
 F 0 "C48" H 4725 2950 50  0000 L CNN
@@ -393,7 +409,7 @@ F 3 "" H 4700 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:MMBF5434 Q14
+L MMBF5434 Q14
 U 1 1 591CE078
 P 2450 2050
 F 0 "Q14" H 2650 2125 50  0000 L CNN
@@ -404,7 +420,7 @@ F 3 "" H 2450 2000 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q10
+L BSH103,215 Q10
 U 1 1 591CE0F5
 P 2100 1650
 F 0 "Q10" H 2300 1725 50  0000 L CNN
@@ -415,7 +431,7 @@ F 3 "" H 2100 1650 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q6
+L BSH103,215 Q6
 U 1 1 591CE21C
 P 1500 1650
 F 0 "Q6" H 1700 1725 50  0000 L CNN
@@ -426,7 +442,7 @@ F 3 "" H 1500 1650 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR084
+L GND #PWR084
 U 1 1 591CE75B
 P 2550 2350
 F 0 "#PWR084" H 2550 2100 50  0001 C CNN
@@ -443,7 +459,7 @@ Text GLabel 1800 1300 1    60   Input ~ 0
 Text GLabel 1150 1750 0    60   Input ~ 0
 CH1_IN
 $Comp
-L freeDSP_Classic_SMD-rescue:MMBF5434 Q15
+L MMBF5434 Q15
 U 1 1 591D04DD
 P 2450 3550
 F 0 "Q15" H 2650 3625 50  0000 L CNN
@@ -454,7 +470,7 @@ F 3 "" H 2450 3500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q11
+L BSH103,215 Q11
 U 1 1 591D04E3
 P 2100 3150
 F 0 "Q11" H 2300 3225 50  0000 L CNN
@@ -465,7 +481,7 @@ F 3 "" H 2100 3150 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q7
+L BSH103,215 Q7
 U 1 1 591D04E9
 P 1500 3150
 F 0 "Q7" H 1700 3225 50  0000 L CNN
@@ -476,7 +492,7 @@ F 3 "" H 1500 3150 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR085
+L GND #PWR085
 U 1 1 591D04F3
 P 2550 3850
 F 0 "#PWR085" H 2550 3600 50  0001 C CNN
@@ -493,7 +509,7 @@ Text GLabel 1800 2800 1    60   Input ~ 0
 Text GLabel 1150 3250 0    60   Input ~ 0
 CH2_IN
 $Comp
-L freeDSP_Classic_SMD-rescue:MMBF5434 Q16
+L MMBF5434 Q16
 U 1 1 591D092D
 P 2450 5300
 F 0 "Q16" H 2650 5375 50  0000 L CNN
@@ -504,7 +520,7 @@ F 3 "" H 2450 5250 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q12
+L BSH103,215 Q12
 U 1 1 591D0933
 P 2100 4900
 F 0 "Q12" H 2300 4975 50  0000 L CNN
@@ -515,7 +531,7 @@ F 3 "" H 2100 4900 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q8
+L BSH103,215 Q8
 U 1 1 591D0939
 P 1500 4900
 F 0 "Q8" H 1700 4975 50  0000 L CNN
@@ -526,7 +542,7 @@ F 3 "" H 1500 4900 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR086
+L GND #PWR086
 U 1 1 591D0943
 P 2550 5600
 F 0 "#PWR086" H 2550 5350 50  0001 C CNN
@@ -543,7 +559,7 @@ Text GLabel 1800 4550 1    60   Input ~ 0
 Text GLabel 1150 5000 0    60   Input ~ 0
 CH3_IN
 $Comp
-L freeDSP_Classic_SMD-rescue:MMBF5434 Q17
+L MMBF5434 Q17
 U 1 1 591D0955
 P 2450 6800
 F 0 "Q17" H 2650 6875 50  0000 L CNN
@@ -554,7 +570,7 @@ F 3 "" H 2450 6750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q13
+L BSH103,215 Q13
 U 1 1 591D095B
 P 2100 6400
 F 0 "Q13" H 2300 6475 50  0000 L CNN
@@ -565,7 +581,7 @@ F 3 "" H 2100 6400 50  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:BSH103,215 Q9
+L BSH103,215 Q9
 U 1 1 591D0961
 P 1500 6400
 F 0 "Q9" H 1700 6475 50  0000 L CNN
@@ -576,7 +592,7 @@ F 3 "" H 1500 6400 50  0001 L CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR087
+L GND #PWR087
 U 1 1 591D096B
 P 2550 7100
 F 0 "#PWR087" H 2550 6850 50  0001 C CNN
@@ -593,7 +609,7 @@ Text GLabel 1800 6050 1    60   Input ~ 0
 Text GLabel 1150 6500 0    60   Input ~ 0
 CH4_IN
 $Comp
-L freeDSP_Classic_SMD-rescue:R R41
+L R R41
 U 1 1 591D20C4
 P 7400 2600
 F 0 "R41" V 7480 2600 50  0000 C CNN
@@ -604,7 +620,7 @@ F 3 "" H 7400 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:NMOS_GSD Q18
+L NMOS_GSD Q18
 U 1 1 592347FA
 P 5550 5100
 F 0 "Q18" H 5850 5150 50  0000 R CNN
@@ -615,7 +631,7 @@ F 3 "http://assets.nexperia.com/documents/data-sheet/BSS123.pdf" H 5550 5100 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:LM393 U6
+L LM393 U6
 U 2 1 59234951
 P 6600 1400
 F 0 "U6" H 6750 1550 50  0000 C CNN
@@ -626,7 +642,7 @@ F 3 "" H 6600 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR088
+L GND #PWR088
 U 1 1 59234CC3
 P 6500 1800
 F 0 "#PWR088" H 6500 1550 50  0001 C CNN
@@ -637,7 +653,7 @@ F 3 "" H 6500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR089
+L +3V3 #PWR089
 U 1 1 59234EBA
 P 6500 1000
 F 0 "#PWR089" H 6500 850 50  0001 C CNN
@@ -648,7 +664,7 @@ F 3 "" H 6500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR090
+L +3V3 #PWR090
 U 1 1 5923579B
 P 6900 4250
 F 0 "#PWR090" H 6900 4100 50  0001 C CNN
@@ -659,7 +675,7 @@ F 3 "" H 6900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR091
+L GND #PWR091
 U 1 1 59235E08
 P 5650 5400
 F 0 "#PWR091" H 5650 5150 50  0001 C CNN
@@ -935,7 +951,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 1500 6250 1050
 $Comp
-L freeDSP_Classic_SMD-rescue:RCA_01 J4
+L RCA_01 J4
 U 1 1 5932C524
 P 3050 1650
 F 0 "J4" H 3000 1550 60  0000 C CNN
@@ -946,7 +962,7 @@ F 3 "" H 3050 1650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR092
+L GND #PWR092
 U 1 1 5932C8F1
 P 2750 1600
 F 0 "#PWR092" H 2750 1350 50  0001 C CNN
@@ -957,7 +973,7 @@ F 3 "" H 2750 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:RCA_01 J5
+L RCA_01 J5
 U 1 1 5932CD03
 P 3050 3150
 F 0 "J5" H 3000 3050 60  0000 C CNN
@@ -968,7 +984,7 @@ F 3 "" H 3050 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:RCA_01 J6
+L RCA_01 J6
 U 1 1 5932CED4
 P 3050 4900
 F 0 "J6" H 3000 4800 60  0000 C CNN
@@ -979,7 +995,7 @@ F 3 "" H 3050 4900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:RCA_01 J7
+L RCA_01 J7
 U 1 1 5932CFE9
 P 3050 6400
 F 0 "J7" H 3000 6300 60  0000 C CNN
@@ -990,7 +1006,7 @@ F 3 "" H 3050 6400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR093
+L GND #PWR093
 U 1 1 5932D0B8
 P 2750 6350
 F 0 "#PWR093" H 2750 6100 50  0001 C CNN
@@ -1001,7 +1017,7 @@ F 3 "" H 2750 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR094
+L GND #PWR094
 U 1 1 5932D1C1
 P 2750 4850
 F 0 "#PWR094" H 2750 4600 50  0001 C CNN
@@ -1012,7 +1028,7 @@ F 3 "" H 2750 4850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR095
+L GND #PWR095
 U 1 1 5932D22F
 P 2750 3100
 F 0 "#PWR095" H 2750 2850 50  0001 C CNN

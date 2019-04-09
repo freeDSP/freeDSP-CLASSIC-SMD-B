@@ -1,4 +1,4 @@
-update=01.02.2019 18:59:44
+update=Thu Aug 17 15:06:37 2017
 version=1
 last_client=kicad
 [cvpcb]
@@ -39,4 +39,21 @@ LabSize=60
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../LIBRARY
+[eeschema/libraries]
+LibName1=lib/Symbol/fdsp_device_new
+LibName2=lib/Symbol/fdsp_digital_new
+LibName3=lib/Symbol/fdsp_linear_new
+LibName4=lib/Symbol/fdsp_transistor_new
+LibName5=lib/Symbol/fdsp_oscillator_new
+LibName6=Symbol/fdsp_amplifier
+LibName7=Symbol/fdsp_connector
+LibName8=Symbol/fdsp_converter
+LibName9=Symbol/fdsp_device
+LibName10=Symbol/fdsp_digital
+LibName11=Symbol/fdsp_dsp
+LibName12=Symbol/fdsp_mechanical
+LibName13=Symbol/fdsp_pinhead
+LibName14=Symbol/fdsp_power
+LibName15=Symbol/fdsp_regulator
+LibName16=Symbol/fdsp_transistor

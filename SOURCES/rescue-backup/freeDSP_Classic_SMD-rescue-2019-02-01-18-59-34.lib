@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# freeDSP_Classic_SMD-rescue_+12V
+# +12V
 #
-DEF freeDSP_Classic_SMD-rescue_+12V #PWR 0 0 Y Y 1 F P
+DEF +12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "freeDSP_Classic_SMD-rescue_+12V" 0 140 50 H V C CNN
+F1 "+12V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_+3V3
+# +3V3
 #
-DEF freeDSP_Classic_SMD-rescue_+3V3 #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "freeDSP_Classic_SMD-rescue_+3V3" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_+5V
+# +5V
 #
-DEF freeDSP_Classic_SMD-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "freeDSP_Classic_SMD-rescue_+5V" 0 140 50 H V C CNN
+F1 "+5V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -46,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_24AA256P
+# 24AA256P
 #
-DEF freeDSP_Classic_SMD-rescue_24AA256P U 0 30 Y Y 1 F N
+DEF 24AA256P U 0 30 Y Y 1 F N
 F0 "U" 150 350 60 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_24AA256P" 200 -350 60 H V C CNN
+F1 "24AA256P" 200 -350 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -66,11 +66,11 @@ X WP 7 700 100 300 L 60 60 1 1 I
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_ADAU1701
+# ADAU1701
 #
-DEF freeDSP_Classic_SMD-rescue_ADAU1701 U 0 40 Y Y 1 F N
+DEF ADAU1701 U 0 40 Y Y 1 F N
 F0 "U" -1010 1120 40 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_ADAU1701" 920 -1130 40 H V C CNN
+F1 "ADAU1701" 920 -1130 40 H V C CNN
 F2 "TQFP48" 0 0 32 H V C CIN
 F3 "" 0 250 60 H V C CNN
 $FPLIST
@@ -129,11 +129,11 @@ X MP5 9 -1240 430 150 R 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_BSH103,215
+# BSH103,215
 #
-DEF freeDSP_Classic_SMD-rescue_BSH103,215 Q 0 0 Y Y 1 F N
+DEF BSH103,215 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "freeDSP_Classic_SMD-rescue_BSH103,215" 200 0 50 H V L CNN
+F1 "BSH103,215" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -162,11 +162,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_C
+# C
 #
-DEF freeDSP_Classic_SMD-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "freeDSP_Classic_SMD-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -184,11 +184,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_CONN_01X02
+# CONN_01X02
 #
-DEF freeDSP_Classic_SMD-rescue_CONN_01X02 P 0 40 Y N 1 F N
+DEF CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -206,11 +206,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_CONN_01X03
+# CONN_01X03
 #
-DEF freeDSP_Classic_SMD-rescue_CONN_01X03 P 0 40 Y N 1 F N
+DEF CONN_01X03 P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_CONN_01X03" 100 0 50 V V C CNN
+F1 "CONN_01X03" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -230,11 +230,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_CONN_01X06
+# CONN_01X06
 #
-DEF freeDSP_Classic_SMD-rescue_CONN_01X06 P 0 40 Y N 1 F N
+DEF CONN_01X06 P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_CONN_01X06" 100 0 50 V V C CNN
+F1 "CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -260,11 +260,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_CONN_02X03
+# CONN_02X03
 #
-DEF freeDSP_Classic_SMD-rescue_CONN_02X03 P 0 1 Y N 1 F N
+DEF CONN_02X03 P 0 1 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_CONN_02X03" 0 -200 50 H V C CNN
+F1 "CONN_02X03" 0 -200 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -290,11 +290,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_CONN_02X05
+# CONN_02X05
 #
-DEF freeDSP_Classic_SMD-rescue_CONN_02X05 P 0 1 Y N 1 F N
+DEF CONN_02X05 P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_CONN_02X05" 0 -300 50 H V C CNN
+F1 "CONN_02X05" 0 -300 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -328,11 +328,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_CP
+# CP
 #
-DEF freeDSP_Classic_SMD-rescue_CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "freeDSP_Classic_SMD-rescue_CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -356,11 +356,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_Crystal_Oszillator
+# Crystal_Oszillator
 #
-DEF freeDSP_Classic_SMD-rescue_Crystal_Oszillator X 0 40 Y Y 1 F N
+DEF Crystal_Oszillator X 0 40 Y Y 1 F N
 F0 "X" 0 450 60 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_Crystal_Oszillator" 0 -450 60 H V C CNN
+F1 "Crystal_Oszillator" 0 -450 60 H V C CNN
 F2 "" -100 -100 60 H V C CNN
 F3 "" -100 -100 60 H V C CNN
 DRAW
@@ -377,11 +377,11 @@ X Vcc 4 550 250 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_D
+# D
 #
-DEF freeDSP_Classic_SMD-rescue_D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -399,11 +399,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_D_Schottky
+# D_Schottky
 #
-DEF freeDSP_Classic_SMD-rescue_D_Schottky D 0 40 N N 1 F N
+DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_D_Schottky" 0 -100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -421,11 +421,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_FILTER
+# FILTER
 #
-DEF freeDSP_Classic_SMD-rescue_FILTER FB 0 40 Y N 1 F N
+DEF FILTER FB 0 40 Y N 1 F N
 F0 "FB" 0 150 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_FILTER" 0 -100 50 H V C CNN
+F1 "FILTER" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -440,11 +440,11 @@ X 2 2 350 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_FZT751
+# FZT751
 #
-DEF freeDSP_Classic_SMD-rescue_FZT751 Q 0 0 Y Y 1 F N
+DEF FZT751 Q 0 0 Y Y 1 F N
 F0 "Q" 0 -150 60 H V R CNN
-F1 "freeDSP_Classic_SMD-rescue_FZT751" 0 150 60 H V R CNN
+F1 "FZT751" 0 150 60 H V R CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -460,11 +460,11 @@ X E 3 100 -200 100 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_GND
+# GND
 #
-DEF freeDSP_Classic_SMD-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "freeDSP_Classic_SMD-rescue_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -473,11 +473,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_IDT2305NZ
+# IDT2305NZ
 #
-DEF freeDSP_Classic_SMD-rescue_IDT2305NZ U 0 40 Y Y 1 F N
+DEF IDT2305NZ U 0 40 Y Y 1 F N
 F0 "U" -200 450 60 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_IDT2305NZ" 0 -450 60 H V C CNN
+F1 "IDT2305NZ" 0 -450 60 H V C CNN
 F2 "" 0 -350 60 H I C CNN
 F3 "" 0 -350 60 H I C CNN
 DRAW
@@ -493,11 +493,11 @@ X CLK3 8 500 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_L
+# L
 #
-DEF freeDSP_Classic_SMD-rescue_L L 0 40 N N 1 F N
+DEF L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "freeDSP_Classic_SMD-rescue_L" 100 0 50 V V C CNN
+F1 "L" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -510,11 +510,11 @@ X 2 2 0 -300 100 U 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_LED
+# LED
 #
-DEF freeDSP_Classic_SMD-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -536,11 +536,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_LM284x
+# LM284x
 #
-DEF freeDSP_Classic_SMD-rescue_LM284x U 0 40 Y Y 1 F N
+DEF LM284x U 0 40 Y Y 1 F N
 F0 "U" 250 300 60 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_LM284x" -100 300 60 H V C CNN
+F1 "LM284x" -100 300 60 H V C CNN
 F2 "" 50 0 60 H V C CNN
 F3 "" 50 0 60 H V C CNN
 DRAW
@@ -554,11 +554,11 @@ X SW 6 500 0 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_LM358
+# LM358
 #
-DEF freeDSP_Classic_SMD-rescue_LM358 U 0 20 Y Y 2 F N
+DEF LM358 U 0 20 Y Y 2 F N
 F0 "U" -50 200 60 H V L CNN
-F1 "freeDSP_Classic_SMD-rescue_LM358" -50 -250 60 H V L CNN
+F1 "LM358" -50 -250 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -574,11 +574,11 @@ X ~ 7 500 0 300 L 40 40 2 1 O
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_LM393
+# LM393
 #
-DEF freeDSP_Classic_SMD-rescue_LM393 U 0 20 Y Y 2 F N
+DEF LM393 U 0 20 Y Y 2 F N
 F0 "U" 150 150 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_LM393" 250 -150 50 H V C CNN
+F1 "LM393" 250 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -600,11 +600,11 @@ X V+ 8 -100 300 150 D 50 50 2 1 W
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_MMBF5434
+# MMBF5434
 #
-DEF freeDSP_Classic_SMD-rescue_MMBF5434 Q 0 0 Y Y 1 F N
+DEF MMBF5434 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "freeDSP_Classic_SMD-rescue_MMBF5434" 200 0 50 H V L CNN
+F1 "MMBF5434" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" 200 -75 50 H I L CIN
 F3 "" 0 -50 50 H I L CNN
 $FPLIST
@@ -622,11 +622,11 @@ X G 3 -200 -50 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_NMOS_GSD
+# NMOS_GSD
 #
-DEF freeDSP_Classic_SMD-rescue_NMOS_GSD Q 0 0 Y N 1 F N
+DEF NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "freeDSP_Classic_SMD-rescue_NMOS_GSD" 600 -50 50 H V R CNN
+F1 "NMOS_GSD" 600 -50 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -648,11 +648,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF freeDSP_Classic_SMD-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 50 H I C CNN
-F1 "freeDSP_Classic_SMD-rescue_PWR_FLAG" 0 180 50 H V C CNN
+F1 "PWR_FLAG" 0 180 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -661,11 +661,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_R
+# R
 #
-DEF freeDSP_Classic_SMD-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "freeDSP_Classic_SMD-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -679,11 +679,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_RCA_01
+# RCA_01
 #
-DEF freeDSP_Classic_SMD-rescue_RCA_01 J 0 40 Y N 1 F N
+DEF RCA_01 J 0 40 Y N 1 F N
 F0 "J" -50 -100 60 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_RCA_01" -50 200 60 H V C CNN
+F1 "RCA_01" -50 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -699,11 +699,11 @@ X GND 2 300 -50 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_SN74LVC3G14
+# SN74LVC3G14
 #
-DEF freeDSP_Classic_SMD-rescue_SN74LVC3G14 U 0 30 Y Y 3 F N
+DEF SN74LVC3G14 U 0 30 Y Y 3 F N
 F0 "U" 150 100 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_SN74LVC3G14" 200 -100 50 H V C CNN
+F1 "SN74LVC3G14" 200 -100 50 H V C CNN
 F2 "DCT_Handsoldering" 300 -200 50 H V C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -729,11 +729,11 @@ X ~ 6 450 0 300 L 50 50 3 2 O
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_STDCONN
+# STDCONN
 #
-DEF freeDSP_Classic_SMD-rescue_STDCONN P 0 1 Y Y 1 F N
+DEF STDCONN P 0 1 Y Y 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_STDCONN" 0 -450 50 H V C CNN
+F1 "STDCONN" 0 -450 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -779,11 +779,11 @@ X LRCLK 9 -300 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_SW_PUSH
+# SW_PUSH
 #
-DEF freeDSP_Classic_SMD-rescue_SW_PUSH SW 0 40 N N 1 F N
+DEF SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_SW_PUSH" 0 -80 50 H V C CNN
+F1 "SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -794,11 +794,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_VIN
+# VIN
 #
-DEF freeDSP_Classic_SMD-rescue_VIN #PWR 0 0 Y Y 1 F P
+DEF VIN #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "freeDSP_Classic_SMD-rescue_VIN" 0 140 50 H V C CNN
+F1 "VIN" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -809,11 +809,11 @@ X VIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# freeDSP_Classic_SMD-rescue_ZENER
+# ZENER
 #
-DEF freeDSP_Classic_SMD-rescue_ZENER D 0 40 N N 1 F N
+DEF ZENER D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "freeDSP_Classic_SMD-rescue_ZENER" 0 -100 50 H V C CNN
+F1 "ZENER" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -826,36 +826,6 @@ P 5 0 1 8 -70 50 -50 30 -50 -30 -30 -50 -30 -50 N
 P 5 0 1 0 -50 0 50 50 50 -50 -50 0 -50 0 F
 X K 1 -200 0 150 R 50 50 1 1 P
 X A 2 200 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# freeDSP_Pinhead_CONN_02X03
-#
-DEF freeDSP_Pinhead_CONN_02X03 P 0 1 Y N 1 F N
-F0 "P" 0 200 50 H V C CNN
-F1 "freeDSP_Pinhead_CONN_02X03" 0 -200 50 H V C CNN
-F2 "" 0 -1200 60 H V C CNN
-F3 "" 0 -1200 60 H V C CNN
-$FPLIST
- Pin_Header_Straight_2X03
- Pin_Header_Angled_2X03
- Socket_Strip_Straight_2X03
- Socket_Strip_Angled_2X03
-$ENDFPLIST
-DRAW
-S -100 -95 -50 -105 0 1 0 N
-S -100 5 -50 -5 0 1 0 N
-S -100 105 -50 95 0 1 0 N
-S -100 150 100 -150 0 1 0 N
-S 50 -95 100 -105 0 1 0 N
-S 50 5 100 -5 0 1 0 N
-S 50 105 100 95 0 1 0 N
-X P1 1 -250 100 150 R 50 50 1 1 P
-X P2 2 250 100 150 L 50 50 1 1 P
-X P3 3 -250 0 150 R 50 50 1 1 P
-X P4 4 250 0 150 L 50 50 1 1 P
-X P5 5 -250 -100 150 R 50 50 1 1 P
-X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
