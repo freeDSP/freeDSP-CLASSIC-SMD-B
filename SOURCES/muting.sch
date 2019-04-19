@@ -7,9 +7,9 @@ encoding utf-8
 Sheet 4 5
 Title "Muting"
 Date "2017-06-16"
-Rev "1"
+Rev "1.1"
 Comp "Max Wulf"
-Comment1 ""
+Comment1 "Revision 1.1 - Michael Funk"
 Comment2 ""
 Comment3 ""
 Comment4 ""
