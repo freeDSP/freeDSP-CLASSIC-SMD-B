@@ -1,21 +1,37 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_transistor_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
 LIBS:freeDSP_Classic_SMD-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Power Supply"
 Date "2017-06-16"
-Rev "1.1"
+Rev "1"
 Comp "Max Becker"
-Comment1 "Revision 1.1 - Michael Funk"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L freeDSP_Classic_SMD-rescue:LM284x LM1
+L LM284x LM1
 U 1 1 592AEAF9
 P 5350 4400
 F 0 "LM1" H 5600 4700 60  0000 C CNN
@@ -26,7 +42,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2842.pdf" H 5400 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C Cin1
+L C Cin1
 U 1 1 592AEB22
 P 4350 4900
 F 0 "Cin1" H 4375 5000 50  0000 L CNN
@@ -37,7 +53,7 @@ F 3 "" H 4350 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C Cboot1
+L C Cboot1
 U 1 1 592AEC30
 P 6500 4250
 F 0 "Cboot1" V 6250 4200 50  0000 L CNN
@@ -48,7 +64,7 @@ F 3 "" H 6500 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:L L1
+L L L1
 U 1 1 592AEE35
 P 7525 4400
 F 0 "L1" V 7475 4400 50  0000 C CNN
@@ -59,7 +75,7 @@ F 3 "" H 7525 4400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R Rfb1
+L R Rfb1
 U 1 1 592AF0E0
 P 8200 4650
 F 0 "Rfb1" V 8280 4650 50  0000 C CNN
@@ -70,7 +86,7 @@ F 3 "" H 8200 4650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R Rfb2
+L R Rfb2
 U 1 1 592AF16B
 P 8200 5100
 F 0 "Rfb2" V 8280 5100 50  0000 C CNN
@@ -81,7 +97,7 @@ F 3 "" H 8200 5100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C Cout1
+L C Cout1
 U 1 1 592AF67C
 P 8750 4800
 F 0 "Cout1" H 8775 4900 50  0000 L CNN
@@ -92,7 +108,7 @@ F 3 "" H 8750 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR067
+L GND #PWR067
 U 1 1 592AF8ED
 P 5900 5450
 F 0 "#PWR067" H 5900 5200 50  0001 C CNN
@@ -103,7 +119,7 @@ F 3 "" H 5900 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:VIN #PWR068
+L VIN #PWR068
 U 1 1 592B0082
 P 3450 4150
 F 0 "#PWR068" H 3450 4000 50  0001 C CNN
@@ -114,7 +130,7 @@ F 3 "" H 3450 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:ZENER D4
+L ZENER D4
 U 1 1 592B0AB6
 P 3100 4900
 F 0 "D4" H 3100 5000 50  0000 C CNN
@@ -125,7 +141,7 @@ F 3 "http://www.mouser.com/ds/2/54/6smb-778327.pdf" H 3100 4900 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:D_Schottky D3
+L D_Schottky D3
 U 1 1 592B0C13
 P 2600 4250
 F 0 "D3" H 2600 4350 50  0000 C CNN
@@ -136,7 +152,7 @@ F 3 "http://www.mouser.com/ds/2/115/ds13002-60388.pdf" H 2600 4250 60  0001 C CN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CONN_01X02 J3
+L CONN_01X02 J3
 U 1 1 592B0D49
 P 1750 4300
 F 0 "J3" H 1750 4450 50  0000 C CNN
@@ -147,7 +163,7 @@ F 3 "" H 1750 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:FILTER FB1
+L FILTER FB1
 U 1 1 592C3762
 P 3975 4250
 F 0 "FB1" H 3975 4400 50  0000 C CNN
@@ -221,7 +237,7 @@ Wire Wire Line
 	4350 5050 4350 5350
 Connection ~ 4350 5350
 $Comp
-L freeDSP_Classic_SMD-rescue:+12V #PWR069
+L +12V #PWR069
 U 1 1 592E15F4
 P 2125 4200
 F 0 "#PWR069" H 2125 4050 50  0001 C CNN
@@ -234,7 +250,7 @@ $EndComp
 Connection ~ 7050 4400
 Connection ~ 8750 4400
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR070
+L +3V3 #PWR070
 U 1 1 592E1EE2
 P 8750 4300
 F 0 "#PWR070" H 8750 4150 50  0001 C CNN
@@ -245,7 +261,7 @@ F 3 "" H 8750 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:PWR_FLAG #FLG071
+L PWR_FLAG #FLG071
 U 1 1 5932FFE3
 P 9100 4400
 F 0 "#FLG071" H 9100 4495 50  0001 C CNN
@@ -257,7 +273,7 @@ F 3 "" H 9100 4400 50  0000 C CNN
 $EndComp
 Connection ~ 8750 5350
 $Comp
-L freeDSP_Classic_SMD-rescue:PWR_FLAG #FLG072
+L PWR_FLAG #FLG072
 U 1 1 59330402
 P 2375 3975
 F 0 "#FLG072" H 2375 4070 50  0001 C CNN
@@ -268,7 +284,7 @@ F 3 "" H 2375 3975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:PWR_FLAG #FLG073
+L PWR_FLAG #FLG073
 U 1 1 59330444
 P 3100 3975
 F 0 "#FLG073" H 3100 4070 50  0001 C CNN
@@ -282,7 +298,7 @@ Wire Wire Line
 	2375 3975 2375 4250
 Connection ~ 2375 4250
 $Comp
-L freeDSP_Classic_SMD-rescue:PWR_FLAG #FLG074
+L PWR_FLAG #FLG074
 U 1 1 593306EC
 P 4550 3975
 F 0 "#FLG074" H 4550 4070 50  0001 C CNN
@@ -296,7 +312,7 @@ Wire Wire Line
 	2125 4200 2125 4250
 Connection ~ 2125 4250
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C_res3
+L CP C_res3
 U 1 1 592EFEEA
 P 9450 4800
 F 0 "C_res3" H 9475 4900 50  0000 L CNN
@@ -307,7 +323,7 @@ F 3 "" H 9450 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C_res2
+L C C_res2
 U 1 1 592F003A
 P 9100 4800
 F 0 "C_res2" H 9125 4900 50  0000 L CNN
@@ -328,7 +344,7 @@ Wire Wire Line
 	9450 5350 9450 4950
 Connection ~ 9100 5350
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C_res1
+L CP C_res1
 U 1 1 592F05A0
 P 4600 4900
 F 0 "C_res1" H 4625 5000 50  0000 L CNN
@@ -349,7 +365,7 @@ Wire Wire Line
 	4600 5050 4600 5350
 Connection ~ 4600 5350
 $Comp
-L freeDSP_Classic_SMD-rescue:D_Schottky D5
+L D_Schottky D5
 U 1 1 592EBAF3
 P 6300 4850
 F 0 "D5" H 6300 4950 50  0000 C CNN
@@ -364,7 +380,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 5350 9925 5350
 $Comp
-L freeDSP_Classic_SMD-rescue:LED D11
+L LED D11
 U 1 1 595D0A2A
 P 9925 5100
 F 0 "D11" H 9925 5200 50  0000 C CNN
@@ -375,7 +391,7 @@ F 3 "" H 9925 5100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R48
+L R R48
 U 1 1 595D0AB5
 P 9925 4625
 F 0 "R48" V 10005 4625 50  0000 C CNN

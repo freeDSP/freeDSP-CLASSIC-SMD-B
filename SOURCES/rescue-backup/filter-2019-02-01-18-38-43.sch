@@ -1,15 +1,31 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_transistor_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
 LIBS:freeDSP_Classic_SMD-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Filter"
 Date "2017-06-16"
-Rev "1.1"
+Rev "1"
 Comp "Kai Dehmelt"
-Comment1 "Revision 1.1 - Michael Funk"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -23,7 +39,7 @@ VOUT2
 Text GLabel 1250 6900 0    60   Input ~ 0
 VOUT3
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR043
+L +3V3 #PWR043
 U 1 1 592AD82E
 P 3850 850
 F 0 "#PWR043" H 3850 700 50  0001 C CNN
@@ -42,7 +58,7 @@ Output Filter
 Text Notes 7900 1100 0    60   ~ 0
 Input
 $Comp
-L freeDSP_Classic_SMD-rescue:RCA_01 J1
+L RCA_01 J1
 U 1 1 592C3B86
 P 8150 1900
 F 0 "J1" H 8100 1800 60  0000 C CNN
@@ -53,7 +69,7 @@ F 3 "" H 8150 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C38
+L CP C38
 U 1 1 592C428E
 P 9000 1800
 F 0 "C38" H 9025 1900 50  0000 L CNN
@@ -64,7 +80,7 @@ F 3 "" H 9000 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CONN_02X03 P8
+L CONN_02X03 P8
 U 1 1 592C434D
 P 9650 1900
 F 0 "P8" H 9650 2100 50  0000 C CNN
@@ -75,7 +91,7 @@ F 3 "" H 9650 700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R30
+L R R30
 U 1 1 592C43F4
 P 10250 1800
 F 0 "R30" V 10330 1800 50  0000 C CNN
@@ -86,7 +102,7 @@ F 3 "" H 10250 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R31
+L R R31
 U 1 1 592C44D9
 P 10250 2050
 F 0 "R31" V 10330 2050 50  0000 C CNN
@@ -97,7 +113,7 @@ F 3 "" H 10250 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R32
+L R R32
 U 1 1 592C45C3
 P 10250 2300
 F 0 "R32" V 10330 2300 50  0000 C CNN
@@ -124,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 1800 10550 1800
 Wire Wire Line
-	10550 1800 10550 2050
+	10550 1800 10550 2600
 Wire Wire Line
 	10400 2050 10550 2050
 Connection ~ 10550 2050
@@ -132,9 +148,9 @@ Wire Wire Line
 	10400 2300 10550 2300
 Connection ~ 10550 2300
 Wire Wire Line
-	8450 1950 8450 2400
+	8450 1950 8450 2500
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR044
+L GND #PWR044
 U 1 1 592C4A15
 P 8450 2500
 F 0 "#PWR044" H 8450 2250 50  0001 C CNN
@@ -145,7 +161,7 @@ F 3 "" H 8450 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R28
+L R R28
 U 1 1 592C4B32
 P 8650 2100
 F 0 "R28" V 8730 2100 50  0000 C CNN
@@ -161,14 +177,14 @@ Wire Wire Line
 	8650 2400 8450 2400
 Connection ~ 8450 2400
 Wire Wire Line
-	8450 1800 8650 1800
+	8450 1800 8850 1800
 Wire Wire Line
 	8650 1950 8650 1800
 Connection ~ 8650 1800
 Wire Wire Line
-	9150 1800 9300 1800
+	9150 1800 9400 1800
 Wire Wire Line
-	9300 1800 9300 1900
+	9300 1800 9300 2000
 Wire Wire Line
 	9300 1900 9400 1900
 Connection ~ 9300 1800
@@ -178,7 +194,7 @@ Connection ~ 9300 1900
 Text GLabel 10550 2600 3    60   Output ~ 0
 ADC0
 $Comp
-L freeDSP_Classic_SMD-rescue:RCA_01 J2
+L RCA_01 J2
 U 1 1 592C64B9
 P 8250 4200
 F 0 "J2" H 8200 4100 60  0000 C CNN
@@ -189,7 +205,7 @@ F 3 "" H 8250 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C39
+L CP C39
 U 1 1 592C64BF
 P 9100 4100
 F 0 "C39" H 9125 4200 50  0000 L CNN
@@ -200,7 +216,7 @@ F 3 "" H 9100 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CONN_02X03 P9
+L CONN_02X03 P9
 U 1 1 592C64C5
 P 9750 4200
 F 0 "P9" H 9750 4400 50  0000 C CNN
@@ -211,7 +227,7 @@ F 3 "" H 9750 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R33
+L R R33
 U 1 1 592C64CB
 P 10350 4100
 F 0 "R33" V 10430 4100 50  0000 C CNN
@@ -222,7 +238,7 @@ F 3 "" H 10350 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R34
+L R R34
 U 1 1 592C64D1
 P 10350 4350
 F 0 "R34" V 10430 4350 50  0000 C CNN
@@ -233,7 +249,7 @@ F 3 "" H 10350 4350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R35
+L R R35
 U 1 1 592C64D7
 P 10350 4600
 F 0 "R35" V 10430 4600 50  0000 C CNN
@@ -260,7 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 4100 10650 4100
 Wire Wire Line
-	10650 4100 10650 4350
+	10650 4100 10650 4900
 Wire Wire Line
 	10500 4350 10650 4350
 Connection ~ 10650 4350
@@ -268,9 +284,9 @@ Wire Wire Line
 	10500 4600 10650 4600
 Connection ~ 10650 4600
 Wire Wire Line
-	8550 4250 8550 4700
+	8550 4250 8550 4800
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR045
+L GND #PWR045
 U 1 1 592C64EB
 P 8550 4800
 F 0 "#PWR045" H 8550 4550 50  0001 C CNN
@@ -281,7 +297,7 @@ F 3 "" H 8550 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R29
+L R R29
 U 1 1 592C64F1
 P 8750 4400
 F 0 "R29" V 8830 4400 50  0000 C CNN
@@ -297,14 +313,14 @@ Wire Wire Line
 	8750 4700 8550 4700
 Connection ~ 8550 4700
 Wire Wire Line
-	8550 4100 8750 4100
+	8550 4100 8950 4100
 Wire Wire Line
 	8750 4250 8750 4100
 Connection ~ 8750 4100
 Wire Wire Line
-	9250 4100 9400 4100
+	9250 4100 9500 4100
 Wire Wire Line
-	9400 4100 9400 4200
+	9400 4100 9400 4300
 Wire Wire Line
 	9400 4200 9500 4200
 Connection ~ 9400 4100
@@ -317,7 +333,7 @@ Connection ~ 6150 1800
 Wire Wire Line
 	6150 1850 6150 1800
 $Comp
-L freeDSP_Classic_SMD-rescue:R R24
+L R R24
 U 1 1 592B8CC9
 P 6150 2000
 F 0 "R24" V 6230 2000 50  0000 C CNN
@@ -330,14 +346,14 @@ $EndComp
 Wire Wire Line
 	5200 1800 5200 1950
 Wire Wire Line
-	5950 1800 6150 1800
+	5950 1800 6400 1800
 Wire Wire Line
 	3850 850  3850 1400
 Wire Wire Line
 	1250 1700 1550 1700
 Connection ~ 5200 1800
 Wire Wire Line
-	4850 1800 5200 1800
+	4850 1800 5650 1800
 Connection ~ 4450 1355
 Wire Wire Line
 	3300 1355 4450 1355
@@ -346,9 +362,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 1900 3300 1900
 Wire Wire Line
-	4050 1800 4450 1800
+	4050 1800 4550 1800
 Wire Wire Line
-	4450 1200 4450 1355
+	4450 1200 4450 1800
 Wire Wire Line
 	4450 1200 3100 1200
 Wire Wire Line
@@ -357,14 +373,14 @@ Connection ~ 2050 1700
 Wire Wire Line
 	2050 1700 2050 1200
 Wire Wire Line
-	1850 1700 2050 1700
+	1850 1700 2250 1700
 Connection ~ 2850 1700
 Wire Wire Line
 	2850 1900 2850 1700
 Wire Wire Line
-	2550 1700 2850 1700
+	2550 1700 3450 1700
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR046
+L GND #PWR046
 U 1 1 592B031B
 P 2850 2200
 F 0 "#PWR046" H 2850 1950 50  0001 C CNN
@@ -375,7 +391,7 @@ F 3 "" H 2850 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR047
+L GND #PWR047
 U 1 1 592A045F
 P 3850 2200
 F 0 "#PWR047" H 3850 1950 50  0001 C CNN
@@ -386,7 +402,7 @@ F 3 "" H 3850 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C32
+L CP C32
 U 1 1 5929F8F3
 P 5800 1800
 F 0 "C32" H 5825 1900 50  0000 L CNN
@@ -397,7 +413,7 @@ F 3 "" H 5800 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C28
+L C C28
 U 1 1 5929F896
 P 5200 2100
 F 0 "C28" H 5225 2200 50  0000 L CNN
@@ -408,7 +424,7 @@ F 3 "" H 5200 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R20
+L R R20
 U 1 1 5929F7A9
 P 4700 1800
 F 0 "R20" V 4780 1800 50  0000 C CNN
@@ -419,7 +435,7 @@ F 3 "" H 4700 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C24
+L C C24
 U 1 1 5929F56C
 P 2950 1200
 F 0 "C24" H 2975 1300 50  0000 L CNN
@@ -430,7 +446,7 @@ F 3 "" H 2950 1200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C20
+L C C20
 U 1 1 5929F4FB
 P 2850 2050
 F 0 "C20" H 2875 2150 50  0000 L CNN
@@ -441,7 +457,7 @@ F 3 "" H 2850 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R16
+L R R16
 U 1 1 5929F47C
 P 2400 1700
 F 0 "R16" V 2480 1700 50  0000 C CNN
@@ -452,7 +468,7 @@ F 3 "" H 2400 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R12
+L R R12
 U 1 1 5929F304
 P 1700 1700
 F 0 "R12" V 1780 1700 50  0000 C CNN
@@ -463,7 +479,7 @@ F 3 "" H 1700 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:LM358 U3
+L LM358 U3
 U 1 1 592C5129
 P 3950 1800
 F 0 "U3" H 3950 2000 50  0000 L CNN
@@ -475,7 +491,7 @@ F 3 "" H 3950 1800 50  0000 C CNN
 $EndComp
 Connection ~ 4450 1800
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR048
+L +3V3 #PWR048
 U 1 1 59327C4D
 P 3850 2600
 F 0 "#PWR048" H 3850 2450 50  0001 C CNN
@@ -491,7 +507,7 @@ Wire Wire Line
 	3850 2600 3850 3150
 Connection ~ 5200 3550
 Wire Wire Line
-	4850 3550 5200 3550
+	4850 3550 5650 3550
 Connection ~ 4450 3105
 Wire Wire Line
 	3300 3105 4450 3105
@@ -500,9 +516,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 3650 3300 3650
 Wire Wire Line
-	4050 3550 4450 3550
+	4050 3550 4550 3550
 Wire Wire Line
-	4450 2950 4450 3105
+	4450 2950 4450 3550
 Wire Wire Line
 	4450 2950 3100 2950
 Wire Wire Line
@@ -511,14 +527,14 @@ Connection ~ 2050 3450
 Wire Wire Line
 	2050 3450 2050 2950
 Wire Wire Line
-	1850 3450 2050 3450
+	1850 3450 2250 3450
 Connection ~ 2850 3450
 Wire Wire Line
 	2850 3650 2850 3450
 Wire Wire Line
-	2550 3450 2850 3450
+	2550 3450 3450 3450
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR049
+L GND #PWR049
 U 1 1 59327C7D
 P 2850 3950
 F 0 "#PWR049" H 2850 3700 50  0001 C CNN
@@ -529,7 +545,7 @@ F 3 "" H 2850 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR050
+L GND #PWR050
 U 1 1 59327C83
 P 3850 3950
 F 0 "#PWR050" H 3850 3700 50  0001 C CNN
@@ -540,7 +556,7 @@ F 3 "" H 3850 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C33
+L CP C33
 U 1 1 59327C89
 P 5800 3550
 F 0 "C33" H 5825 3650 50  0000 L CNN
@@ -551,7 +567,7 @@ F 3 "" H 5800 3550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C29
+L C C29
 U 1 1 59327C8F
 P 5200 3850
 F 0 "C29" H 5225 3950 50  0000 L CNN
@@ -562,7 +578,7 @@ F 3 "" H 5200 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R21
+L R R21
 U 1 1 59327C95
 P 4700 3550
 F 0 "R21" V 4780 3550 50  0000 C CNN
@@ -573,7 +589,7 @@ F 3 "" H 4700 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C25
+L C C25
 U 1 1 59327C9B
 P 2950 2950
 F 0 "C25" H 2975 3050 50  0000 L CNN
@@ -584,7 +600,7 @@ F 3 "" H 2950 2950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C21
+L C C21
 U 1 1 59327CA1
 P 2850 3800
 F 0 "C21" H 2875 3900 50  0000 L CNN
@@ -595,7 +611,7 @@ F 3 "" H 2850 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R17
+L R R17
 U 1 1 59327CA7
 P 2400 3450
 F 0 "R17" V 2480 3450 50  0000 C CNN
@@ -606,7 +622,7 @@ F 3 "" H 2400 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R13
+L R R13
 U 1 1 59327CAD
 P 1700 3450
 F 0 "R13" V 1780 3450 50  0000 C CNN
@@ -618,7 +634,7 @@ F 3 "" H 1700 3450 50  0000 C CNN
 $EndComp
 Connection ~ 4450 3550
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR051
+L +3V3 #PWR051
 U 1 1 593283B0
 P 3850 4300
 F 0 "#PWR051" H 3850 4150 50  0001 C CNN
@@ -634,7 +650,7 @@ Wire Wire Line
 	3850 4300 3850 4850
 Connection ~ 5200 5250
 Wire Wire Line
-	4850 5250 5200 5250
+	4850 5250 5650 5250
 Connection ~ 4450 4805
 Wire Wire Line
 	3300 4805 4450 4805
@@ -643,9 +659,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 5350 3300 5350
 Wire Wire Line
-	4050 5250 4450 5250
+	4050 5250 4550 5250
 Wire Wire Line
-	4450 4650 4450 4805
+	4450 4650 4450 5250
 Wire Wire Line
 	4450 4650 3100 4650
 Wire Wire Line
@@ -654,14 +670,14 @@ Connection ~ 2050 5150
 Wire Wire Line
 	2050 5150 2050 4650
 Wire Wire Line
-	1850 5150 2050 5150
+	1850 5150 2250 5150
 Connection ~ 2850 5150
 Wire Wire Line
 	2850 5350 2850 5150
 Wire Wire Line
-	2550 5150 2850 5150
+	2550 5150 3450 5150
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR052
+L GND #PWR052
 U 1 1 593283E0
 P 2850 5650
 F 0 "#PWR052" H 2850 5400 50  0001 C CNN
@@ -672,7 +688,7 @@ F 3 "" H 2850 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR053
+L GND #PWR053
 U 1 1 593283E6
 P 3850 5650
 F 0 "#PWR053" H 3850 5400 50  0001 C CNN
@@ -683,7 +699,7 @@ F 3 "" H 3850 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C34
+L CP C34
 U 1 1 593283EC
 P 5800 5250
 F 0 "C34" H 5825 5350 50  0000 L CNN
@@ -694,7 +710,7 @@ F 3 "" H 5800 5250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C30
+L C C30
 U 1 1 593283F2
 P 5200 5550
 F 0 "C30" H 5225 5650 50  0000 L CNN
@@ -705,7 +721,7 @@ F 3 "" H 5200 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R22
+L R R22
 U 1 1 593283F8
 P 4700 5250
 F 0 "R22" V 4780 5250 50  0000 C CNN
@@ -716,7 +732,7 @@ F 3 "" H 4700 5250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C26
+L C C26
 U 1 1 593283FE
 P 2950 4650
 F 0 "C26" H 2975 4750 50  0000 L CNN
@@ -727,7 +743,7 @@ F 3 "" H 2950 4650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C22
+L C C22
 U 1 1 59328404
 P 2850 5500
 F 0 "C22" H 2875 5600 50  0000 L CNN
@@ -738,7 +754,7 @@ F 3 "" H 2850 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R18
+L R R18
 U 1 1 5932840A
 P 2400 5150
 F 0 "R18" V 2480 5150 50  0000 C CNN
@@ -749,7 +765,7 @@ F 3 "" H 2400 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R14
+L R R14
 U 1 1 59328410
 P 1700 5150
 F 0 "R14" V 1780 5150 50  0000 C CNN
@@ -760,7 +776,7 @@ F 3 "" H 1700 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:LM358 U4
+L LM358 U4
 U 1 1 59328416
 P 3950 5250
 F 0 "U4" H 3950 5450 50  0000 L CNN
@@ -772,7 +788,7 @@ F 3 "" H 3950 5250 50  0000 C CNN
 $EndComp
 Connection ~ 4450 5250
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR054
+L +3V3 #PWR054
 U 1 1 59328D72
 P 3850 6050
 F 0 "#PWR054" H 3850 5900 50  0001 C CNN
@@ -788,7 +804,7 @@ Wire Wire Line
 	3850 6050 3850 6600
 Connection ~ 5200 7000
 Wire Wire Line
-	4850 7000 5200 7000
+	4850 7000 5650 7000
 Connection ~ 4450 6555
 Wire Wire Line
 	3300 6555 4450 6555
@@ -797,9 +813,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 7100 3300 7100
 Wire Wire Line
-	4050 7000 4450 7000
+	4050 7000 4550 7000
 Wire Wire Line
-	4450 6400 4450 6555
+	4450 6400 4450 7000
 Wire Wire Line
 	4450 6400 3100 6400
 Wire Wire Line
@@ -808,14 +824,14 @@ Connection ~ 2050 6900
 Wire Wire Line
 	2050 6900 2050 6400
 Wire Wire Line
-	1850 6900 2050 6900
+	1850 6900 2250 6900
 Connection ~ 2850 6900
 Wire Wire Line
 	2850 7100 2850 6900
 Wire Wire Line
-	2550 6900 2850 6900
+	2550 6900 3450 6900
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR055
+L GND #PWR055
 U 1 1 59328DA2
 P 2850 7400
 F 0 "#PWR055" H 2850 7150 50  0001 C CNN
@@ -826,7 +842,7 @@ F 3 "" H 2850 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR056
+L GND #PWR056
 U 1 1 59328DA8
 P 3850 7400
 F 0 "#PWR056" H 3850 7150 50  0001 C CNN
@@ -837,7 +853,7 @@ F 3 "" H 3850 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C35
+L CP C35
 U 1 1 59328DAE
 P 5800 7000
 F 0 "C35" H 5825 7100 50  0000 L CNN
@@ -848,7 +864,7 @@ F 3 "" H 5800 7000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C31
+L C C31
 U 1 1 59328DB4
 P 5200 7300
 F 0 "C31" H 5225 7400 50  0000 L CNN
@@ -859,7 +875,7 @@ F 3 "" H 5200 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R23
+L R R23
 U 1 1 59328DBA
 P 4700 7000
 F 0 "R23" V 4780 7000 50  0000 C CNN
@@ -870,7 +886,7 @@ F 3 "" H 4700 7000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C27
+L C C27
 U 1 1 59328DC0
 P 2950 6400
 F 0 "C27" H 2975 6500 50  0000 L CNN
@@ -881,7 +897,7 @@ F 3 "" H 2950 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C23
+L C C23
 U 1 1 59328DC6
 P 2850 7250
 F 0 "C23" H 2875 7350 50  0000 L CNN
@@ -892,7 +908,7 @@ F 3 "" H 2850 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R19
+L R R19
 U 1 1 59328DCC
 P 2400 6900
 F 0 "R19" V 2480 6900 50  0000 C CNN
@@ -903,7 +919,7 @@ F 3 "" H 2400 6900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R15
+L R R15
 U 1 1 59328DD2
 P 1700 6900
 F 0 "R15" V 1780 6900 50  0000 C CNN
@@ -914,7 +930,7 @@ F 3 "" H 1700 6900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:LM358 U4
+L LM358 U4
 U 2 1 59328DD8
 P 3950 7000
 F 0 "U4" H 3950 7200 50  0000 L CNN
@@ -926,7 +942,7 @@ F 3 "" H 3950 7000 50  0000 C CNN
 $EndComp
 Connection ~ 4450 7000
 $Comp
-L freeDSP_Classic_SMD-rescue:LM358 U3
+L LM358 U3
 U 2 1 59329030
 P 3950 3550
 F 0 "U3" H 3900 3750 60  0000 L CNN
@@ -939,7 +955,7 @@ $EndComp
 Wire Wire Line
 	6150 2150 6150 2300
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR057
+L GND #PWR057
 U 1 1 5932A2F4
 P 6150 2300
 F 0 "#PWR057" H 6150 2050 50  0001 C CNN
@@ -952,7 +968,7 @@ $EndComp
 Wire Wire Line
 	5200 2250 5200 2350
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR058
+L GND #PWR058
 U 1 1 5932A518
 P 5200 2350
 F 0 "#PWR058" H 5200 2100 50  0001 C CNN
@@ -968,7 +984,7 @@ Connection ~ 6150 3550
 Wire Wire Line
 	6150 3600 6150 3550
 $Comp
-L freeDSP_Classic_SMD-rescue:R R25
+L R R25
 U 1 1 5932B475
 P 6150 3750
 F 0 "R25" V 6230 3750 50  0000 C CNN
@@ -979,11 +995,11 @@ F 3 "" H 6150 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 3550 6150 3550
+	5950 3550 6400 3550
 Wire Wire Line
 	6150 3900 6150 4050
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR059
+L GND #PWR059
 U 1 1 5932B47D
 P 6150 4050
 F 0 "#PWR059" H 6150 3800 50  0001 C CNN
@@ -999,7 +1015,7 @@ Connection ~ 6150 5250
 Wire Wire Line
 	6150 5300 6150 5250
 $Comp
-L freeDSP_Classic_SMD-rescue:R R26
+L R R26
 U 1 1 5932B5F0
 P 6150 5450
 F 0 "R26" V 6230 5450 50  0000 C CNN
@@ -1010,11 +1026,11 @@ F 3 "" H 6150 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 5250 6150 5250
+	5950 5250 6400 5250
 Wire Wire Line
 	6150 5600 6150 5750
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR060
+L GND #PWR060
 U 1 1 5932B5F8
 P 6150 5750
 F 0 "#PWR060" H 6150 5500 50  0001 C CNN
@@ -1030,7 +1046,7 @@ Connection ~ 6150 7000
 Wire Wire Line
 	6150 7050 6150 7000
 $Comp
-L freeDSP_Classic_SMD-rescue:R R27
+L R R27
 U 1 1 5932B748
 P 6150 7200
 F 0 "R27" V 6230 7200 50  0000 C CNN
@@ -1041,11 +1057,11 @@ F 3 "" H 6150 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 7000 6150 7000
+	5950 7000 6400 7000
 Wire Wire Line
 	6150 7350 6150 7500
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR061
+L GND #PWR061
 U 1 1 5932B750
 P 6150 7500
 F 0 "#PWR061" H 6150 7250 50  0001 C CNN
@@ -1058,7 +1074,7 @@ $EndComp
 Text GLabel 6400 7000 2    60   Output ~ 0
 CH4_IN
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR062
+L GND #PWR062
 U 1 1 5932BA1A
 P 5200 4000
 F 0 "#PWR062" H 5200 3750 50  0001 C CNN
@@ -1069,7 +1085,7 @@ F 3 "" H 5200 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR063
+L GND #PWR063
 U 1 1 5932BC86
 P 5200 5700
 F 0 "#PWR063" H 5200 5450 50  0001 C CNN
@@ -1080,7 +1096,7 @@ F 3 "" H 5200 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR064
+L GND #PWR064
 U 1 1 5932BE8E
 P 5200 7450
 F 0 "#PWR064" H 5200 7200 50  0001 C CNN
@@ -1093,7 +1109,7 @@ $EndComp
 Wire Wire Line
 	1550 5150 1250 5150
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR065
+L GND #PWR065
 U 1 1 592EE586
 P 8450 6200
 F 0 "#PWR065" H 8450 5950 50  0001 C CNN
@@ -1104,7 +1120,7 @@ F 3 "" H 8450 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C36
+L CP C36
 U 1 1 592EE7F4
 P 8450 5900
 F 0 "C36" H 8475 6000 50  0000 L CNN
@@ -1115,7 +1131,7 @@ F 3 "" H 8450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:CP C37
+L CP C37
 U 1 1 592EE981
 P 8750 5900
 F 0 "C37" H 8775 6000 50  0000 L CNN
@@ -1126,7 +1142,7 @@ F 3 "" H 8750 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR066
+L +3V3 #PWR066
 U 1 1 592EEA39
 P 8450 5600
 F 0 "#PWR066" H 8450 5450 50  0001 C CNN
@@ -1137,7 +1153,7 @@ F 3 "" H 8450 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C40
+L C C40
 U 1 1 592EED51
 P 9150 5900
 F 0 "C40" H 9175 6000 50  0000 L CNN
@@ -1148,7 +1164,7 @@ F 3 "" H 9150 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C41
+L C C41
 U 1 1 592EEF8E
 P 9450 5900
 F 0 "C41" H 9475 6000 50  0000 L CNN
@@ -1159,17 +1175,17 @@ F 3 "" H 9450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 5600 8450 5700
+	8450 5600 8450 5750
 Wire Wire Line
-	8450 5700 8750 5700
+	8450 5700 9450 5700
 Wire Wire Line
 	9450 5700 9450 5750
 Wire Wire Line
 	9450 6050 9450 6100
 Wire Wire Line
-	9450 6100 9150 6100
+	9450 6100 8450 6100
 Wire Wire Line
-	8450 6050 8450 6100
+	8450 6050 8450 6200
 Connection ~ 8450 6100
 Wire Wire Line
 	8750 6050 8750 6100
@@ -1184,88 +1200,4 @@ Wire Wire Line
 	8750 5750 8750 5700
 Connection ~ 8750 5700
 Connection ~ 8450 5700
-Wire Wire Line
-	10550 2050 10550 2300
-Wire Wire Line
-	10550 2300 10550 2600
-Wire Wire Line
-	8450 2400 8450 2500
-Wire Wire Line
-	8650 1800 8850 1800
-Wire Wire Line
-	9300 1800 9400 1800
-Wire Wire Line
-	9300 1900 9300 2000
-Wire Wire Line
-	10650 4350 10650 4600
-Wire Wire Line
-	10650 4600 10650 4900
-Wire Wire Line
-	8550 4700 8550 4800
-Wire Wire Line
-	8750 4100 8950 4100
-Wire Wire Line
-	9400 4100 9500 4100
-Wire Wire Line
-	9400 4200 9400 4300
-Wire Wire Line
-	6150 1800 6400 1800
-Wire Wire Line
-	5200 1800 5650 1800
-Wire Wire Line
-	4450 1355 4450 1800
-Wire Wire Line
-	2050 1700 2250 1700
-Wire Wire Line
-	2850 1700 3450 1700
-Wire Wire Line
-	4450 1800 4550 1800
-Wire Wire Line
-	5200 3550 5650 3550
-Wire Wire Line
-	4450 3105 4450 3550
-Wire Wire Line
-	2050 3450 2250 3450
-Wire Wire Line
-	2850 3450 3450 3450
-Wire Wire Line
-	4450 3550 4550 3550
-Wire Wire Line
-	5200 5250 5650 5250
-Wire Wire Line
-	4450 4805 4450 5250
-Wire Wire Line
-	2050 5150 2250 5150
-Wire Wire Line
-	2850 5150 3450 5150
-Wire Wire Line
-	4450 5250 4550 5250
-Wire Wire Line
-	5200 7000 5650 7000
-Wire Wire Line
-	4450 6555 4450 7000
-Wire Wire Line
-	2050 6900 2250 6900
-Wire Wire Line
-	2850 6900 3450 6900
-Wire Wire Line
-	4450 7000 4550 7000
-Wire Wire Line
-	6150 3550 6400 3550
-Wire Wire Line
-	6150 5250 6400 5250
-Wire Wire Line
-	6150 7000 6400 7000
-Wire Wire Line
-	8450 6100 8450 6200
-Wire Wire Line
-	8750 6100 8450 6100
-Wire Wire Line
-	9150 6100 8750 6100
-Wire Wire Line
-	9150 5700 9450 5700
-Wire Wire Line
-	8750 5700 9150 5700
-Wire Wire Line
-	8450 5700 8450 5750
 $EndSCHEMATC

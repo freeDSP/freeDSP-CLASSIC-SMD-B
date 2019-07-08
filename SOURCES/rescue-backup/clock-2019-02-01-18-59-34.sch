@@ -1,21 +1,37 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_transistor_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
 LIBS:freeDSP_Classic_SMD-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "Clock "
 Date "2017-06-16"
-Rev "1.1"
+Rev "1"
 Comp "Christoph Schmidt"
-Comment1 "Revision 1.1 - Michael Funk"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR096
+L GND #PWR096
 U 1 1 591AEBCE
 P 1825 3325
 F 0 "#PWR096" H 1825 3075 50  0001 C CNN
@@ -28,7 +44,7 @@ $EndComp
 Text Notes 2375 2150 0    60   ~ 0
 Oscillator\n
 $Comp
-L freeDSP_Classic_SMD-rescue:R R45
+L R R45
 U 1 1 592B42C3
 P 6600 2675
 F 0 "R45" V 6680 2675 50  0000 C CNN
@@ -39,7 +55,7 @@ F 3 "" H 6600 2675 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R44
+L R R44
 U 1 1 592B48D2
 P 6600 2525
 F 0 "R44" V 6680 2525 50  0000 C CNN
@@ -50,7 +66,7 @@ F 3 "" H 6600 2525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R46
+L R R46
 U 1 1 592B497C
 P 6600 2825
 F 0 "R46" V 6680 2825 50  0000 C CNN
@@ -61,7 +77,7 @@ F 3 "" H 6600 2825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:R R47
+L R R47
 U 1 1 592B4AA9
 P 6600 2975
 F 0 "R47" V 6680 2975 50  0000 C CNN
@@ -84,7 +100,7 @@ MCLK4
 Text Notes 5400 2125 2    60   ~ 0
 Distribution\n
 $Comp
-L freeDSP_Classic_SMD-rescue:C C54
+L C C54
 U 1 1 592AC6E6
 P 1825 2750
 F 0 "C54" H 1850 2850 50  0000 L CNN
@@ -95,7 +111,7 @@ F 3 "" H 1825 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:C C55
+L C C55
 U 1 1 592AE807
 P 5025 2975
 F 0 "C55" H 5050 3075 50  0000 L CNN
@@ -106,7 +122,7 @@ F 3 "" H 5025 2975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:GND #PWR097
+L GND #PWR097
 U 1 1 592AF105
 P 5025 3325
 F 0 "#PWR097" H 5025 3075 50  0001 C CNN
@@ -138,7 +154,7 @@ Wire Wire Line
 	1825 2900 1825 3325
 Connection ~ 1825 3175
 $Comp
-L freeDSP_Classic_SMD-rescue:Crystal_Oszillator X1
+L Crystal_Oszillator X1
 U 1 1 592DBD72
 P 2925 2925
 F 0 "X1" H 2925 3375 60  0000 C CNN
@@ -156,7 +172,7 @@ Connection ~ 2400 2375
 Wire Wire Line
 	3475 2375 3475 2675
 $Comp
-L freeDSP_Classic_SMD-rescue:FILTER FB2
+L FILTER FB2
 U 1 1 592C47A3
 P 1825 2025
 F 0 "FB2" H 1825 2175 50  0000 C CNN
@@ -183,7 +199,7 @@ Wire Wire Line
 Connection ~ 5025 2375
 Connection ~ 5025 3250
 $Comp
-L freeDSP_Classic_SMD-rescue:IDT2305NZ U7
+L IDT2305NZ U7
 U 1 1 592C77F5
 P 5950 2675
 F 0 "U7" H 5750 3125 60  0000 C CNN
@@ -194,7 +210,7 @@ F 3 "" H 5950 2325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freeDSP_Classic_SMD-rescue:+3V3 #PWR098
+L +3V3 #PWR098
 U 1 1 592DEC27
 P 1825 1675
 F 0 "#PWR098" H 1825 1525 50  0001 C CNN
