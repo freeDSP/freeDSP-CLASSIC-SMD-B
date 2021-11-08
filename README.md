@@ -13,7 +13,7 @@ http://freedsp.cc
 The freeDSP is an open-source digital signal processor family for the do-it-yourself community. The applications range from active loudspeaker concepts (digital crossovers, bass enhancement, ...) and room equalization over advanced musical effect processors to car audio signal processing. 
 
 This _freeDSP Classic SMD-B_ is a updated SMD version of the original _freeDSP Classic_ with a few improvements/changes.
-This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad-pcb.org/).
+This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad.org/).
 
 More informations kann be found on the [freeDSP website](http://freedsp.cc)
 
